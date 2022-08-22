@@ -1,0 +1,14 @@
+{% include base.html %}
+<div>
+  <div>
+    <div>
+      <h3>{{ page.name }}</h3>
+      {% if page.pronouns %}
+      <p>Pronouns: {{ page.pronouns }}</p>
+      {% endif %} {% if page.hometown %}
+      <p>Hometown: {{ page.hometown }}</p>
+      {% endif %}
+      <p>{{ page.bio }}</p>
+    </div>
+  </div>
+</div>

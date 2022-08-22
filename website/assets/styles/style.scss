@@ -1,0 +1,146 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minima";
+
+:root {
+    /* ===== COLORS ===== */
+    --color-primary: red;
+    --color-secondary: #00a0e9;
+    --color-tertiary: #00a0e9;
+
+    --text-color: #fff;
+
+    --sidebar-color: #000;
+    --sidebar-transition-color: #555;
+    --sidebar-text-color: #B3B3B3;
+
+    /* ===== TRANSITIONS ===== */
+    --tran-02: all 0.2s ease;
+    --tran-03: all 0.3s ease;
+    --tran-04: all 0.4s ease;
+    --tran-05: all 0.5s ease;
+}
+
+/* ===== SIDEBAR NAVIGATION ===== */
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 200px;
+    padding: 0px 10px;
+
+    background: var(--sidebar-color);
+}
+
+.sidebar-toggle {
+    position: absolute;
+    top: 0;
+    display: flex;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40px;
+    height: 30px;
+    padding: 10px;
+}
+
+@media (max-width: 480px) {
+    .sidebar-toggle {
+        display: flex;
+        background: #000;
+    }
+    .sidebar-content {
+        display: none;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .sidebar {
+        background: none;
+    }
+}
+
+.menu-bar {
+    // display: none;
+}
+
+.nav-element {
+    height: 50px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-link {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: var(--tran-04);
+}
+
+.nav-link:hover {
+    background: var(--sidebar-transition-color);
+}
+
+.nav-link:hover .nav-icon,
+.nav-link:hover .nav-text {
+    color: var(--text-color);
+}
+
+.nav-icon {
+    justify-content: center;
+    font-size: 20px;
+    margin: 0px 20px 0px 10px;
+}
+
+.nav-icon,
+.nav-text {
+    color: var(--sidebar-text-color);
+    transition: var(--tran-03);
+}
+
+.divider {
+    height: 1px;
+    width: 100%;
+    background: var(--sidebar-text-color);
+    margin-top: 20px;
+}
+
+.contact-info-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+}
+
+.contact-info-header {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 0px 10px;
+    color: var(--sidebar-text-color);
+}
+
+.contact-info-item {
+    font-size: 13px;
+    padding: 10px;
+    color: var(--sidebar-text-color);
+}
+
+/* ===== DEFAULT BANNER PAGES ===== */
+.banner-content {
+    margin-left: 200px;
+    padding-left: 20px;
+    
+}
+
+.banner-img {
+    // place this image as the background on the top of the page
+    width: 100%;
+    height: auto;
+    margin-top: -30px;
+}

@@ -1,0 +1,33 @@
+{% include base.html %}
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body>
+
+    <!-- {%- include header.html -%} -->
+    {%- include left-panel-navigation.html -%}
+
+    <main class="page-content" aria-label="Content">
+      <!-- <h2>{{page.title}}</h2> -->
+        <div class="banner-content">
+          <img
+          src="../assets/images/banners/{{page.banner}}"
+          alt="{{page.title}}"
+          class="banner-img"
+          />
+          {{ content }}
+      </div>
+      </div>
+    </main>
+
+    <!-- Include right panel and footer announcements only for home page. -->
+    {% if page.title == "Home" %}
+    {%- include right-panel.html -%}
+    {%- include footer-announcement.html -%}
+    {% endif %}
+
+  </body>
+
+</html>
