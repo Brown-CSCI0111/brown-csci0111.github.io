@@ -1,6 +1,9 @@
 ---
-layout: default
+layout: banner-content
 title: Staff
+verified-icon: verified_icon.png
+banner-header: Verified Employees
+banner-footer: CS111 - 32 Members
 icon: staff_icon.png
 banner: staff_banner.png
 permalink: /staff

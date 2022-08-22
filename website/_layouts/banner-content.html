@@ -1,0 +1,53 @@
+{% include base.html %}
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body>
+
+    {%- include left-panel-navigation.html -%}
+
+    <main class="page-container" aria-label="Content">
+        <div class="banner-container">
+          <img
+          src="../assets/images/banners/{{page.banner}}"
+          alt="{{page.title}}"
+          class="banner-img"
+          />
+
+          <div class="banner-text-header">
+            <!-- Include verified icon only for staff page. -->
+            {% if page.title == "Staff" %}
+            <img
+              src="../assets/images/icons/{{page.verified-icon}}"
+              alt="Verified Icon"
+              height="25px"
+              class="verified-img"
+            />
+            {% endif %}
+            {{page.banner-header}}
+          </div>
+          <div class="banner-text-title">
+            {{page.title}}
+          </div>
+          <div class="banner-text-footer">
+            {{page.banner-footer}}
+          </div>
+        </div>
+        <div class="{{page.title}}-background">
+          <div class="content-wrapper">
+            {{ content }}
+          </div>
+        </div>
+    </main>
+
+    <!-- Include right panel and footer announcements only for home page. -->
+    {% if page.title == "Home" %}
+    {%- include right-panel.html -%}
+    {%- include footer-announcement.html -%}
+    {% endif %}
+
+  </body>
+
+</html>
