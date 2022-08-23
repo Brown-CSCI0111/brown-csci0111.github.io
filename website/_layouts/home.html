@@ -10,17 +10,89 @@
     {%- include left-panel-navigation.html -%}
 
     <main class="home-page-container" aria-label="Content">
-        <div class="home-page-background">
-          {{ content }}
+      <div class="welcome-message">
+        Welcome CS111!
+      </div>
+      <div class="home-time">
+        <div class="home-time-text">
+          Time: MWF 10-10:50
+        </div>
+      </div>
+      <!-- <div style="clear: both;"></div> -->
+
+      <div class="course-description-container">
+        <div class="course-description-text">
+          CSCI:0111 is an introductory course for both concentrators and non-concentrators who want to understand computing through the lens of data. It covers the fundamentals needed for additional CS courses, while also being designed as a useful stopping point for students who want to use a bit of computing, data analysis, or programming in other disciplines.
+          The course expects no prior programming experience. It is paced more gently than CSCI 0150 or CSCI 0170 (which also assume no prior experience), while also focusing on styles of programming that are in common practice across many disciplines. The course uses two programming languages (initially Pyret and later Python), with the first explicitly designed to transition into the second.
+        </div>
+      </div>
+
+      <div class="home-quick-links-container">
+        <div class="home-quick-links-element">
+          <a href="https://brew.sh/" class="nav-link">
+            <img
+              src="../assets/images/icons/google_doc_icon.png"
+              alt="Syallbus Icon"
+              class="home-quick-links-icon"
+            />
+            <span class="home-quick-links-text">Syllabus</span>
+          </a>
+        </div>
+        <div class="home-quick-links-element">
+          <a href="https://brew.sh/" class="nav-link">
+            <img
+              src="../assets/images/icons/edstem_icon.png"
+              alt="EdStem Icon"
+              class="home-quick-links-icon"
+            />
+            <span class="home-quick-links-text">EdStem</span>
+          </a>
+        </div>
+        <div class="home-quick-links-element">
+          <a href="https://brew.sh/" class="nav-link">
+            <img
+              src="../assets/images/icons/gradescope_icon.png"
+              alt="Gradescope Icon"
+              class="home-quick-links-icon"
+            />
+            <span class="home-quick-links-text">Gradescope</span>
+          </a>
+        </div>
+        <div class="home-quick-links-element">
+          <a href="https://brew.sh/" class="nav-link">
+            <img
+              src="../assets/images/icons/google_form_icon.png"
+              alt="Anonymous Feedback Form Icon"
+              class="home-quick-links-icon"
+            />
+            <span class="home-quick-links-text">Anonymous Feedback Form</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="home-hours-container">
+        <div class="home-hours-header">
+          Office Hours
+        </div>
+        <div class="home-calendars-container">
+          <div class="home-calendar-element">
+            <div class="home-calendar-text">TA Hours</div>
+            <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FNew_York&showTitle=0&showNav=1&showDate=0&showPrint=0&showTabs=1&showCalendars=0&showTz=1&mode=WEEK&src=Y19jYWJ2YmhvM3ZkcmFpcmhtMmkzMmF0NzhuOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23E4C441"
+            style="border-width:0" width="420" height="300" title="TA Hours Calendar" class="home-calendar"></iframe>
+          </div>
+          <div class="home-calendar-element">
+            <div class="home-calendar-text">Kathi's Hours</div>
+            <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FNew_York&showTitle=0&showNav=1&showDate=0&showPrint=0&showTabs=1&showCalendars=0&showTz=1&mode=WEEK&src=Y19jYWJ2YmhvM3ZkcmFpcmhtMmkzMmF0NzhuOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23E4C441"
+            style="border-width:0" width="420" height="300" title="Kathi's Hours Calendar" class="home-calendar"></iframe>
+          </div>
         </div>
       </div>
     </main>
 
-    <!-- Include right panel and footer announcements only for home page. -->
-    {% if page.title == "Home" %}
-    {%- include right-panel.html -%}
+    <div>
+      {%- include right-panel.html -%}
+    </div>
     {%- include footer-announcement.html -%}
-    {% endif %}
 
   </body>
 
