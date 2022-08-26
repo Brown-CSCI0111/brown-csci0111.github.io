@@ -514,9 +514,9 @@ body {
 
 .banner-text-header {
   position: absolute;
-  bottom: 40px;
+  bottom: 110px;
   left: 16px;
-  font-size: 30px;
+  font-size: 25px;
   color: #fff;
   z-index: 10;
   text-transform: uppercase;
@@ -526,10 +526,9 @@ body {
 
 .banner-text-title {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 50px;
+  bottom: 40px;
+  left: 16px;
+  font-size: 60px;
   font-weight: bold;
   color: var(--text-color);
 }
@@ -538,7 +537,7 @@ body {
   position: absolute;
   bottom: 20px;
   left: 16px;
-  font-size: 13px;
+  font-size: 15px;
   color: #fff;
   z-index: 10;
   color: #e3e3e3;
