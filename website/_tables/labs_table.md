@@ -1,4 +1,5 @@
 ---
+name: Labs
 cols: ["Lab", "Out", "Additional Materials"]
 contents:
   [

@@ -1,4 +1,5 @@
 ---
+name: Projects
 cols: ["Project", "Out", "In", "Additional Resources"]
 contents:
   [

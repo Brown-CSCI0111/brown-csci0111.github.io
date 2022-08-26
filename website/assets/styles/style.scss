@@ -481,12 +481,11 @@ body {
 
 /* ===== BANNER CONTENT LAYOUT ===== */
 
-// .Labs-background,
-// .Assignments-background {
-//   background: linear-gradient(#a57859, var(--color-primary));
-//   height: 200px;
-//   opacity: 0.2;
-// }
+.Labs-background,
+.Assignments-background {
+  background: linear-gradient(rgba(165, 120, 89, 0.2), rgba(18, 18, 18, 0.2));
+  height: 200px;
+}
 
 .Resources-background,
 .Staff-background {
@@ -558,5 +557,51 @@ body {
   }
   .banner-text-footer {
     font-size: 12px;
+  }
+}
+
+/* ===== GENERATING TABLES LAYOUT ===== */
+
+table {
+  margin-bottom: $spacing-unit;
+  width: 100%;
+  text-align: $table-text-align;
+  border-collapse: collapse;
+  caption {
+    font-size: 35px;
+    font-weight: bold;
+    font-family: var(--font-primary);
+    text-align: $table-text-align;
+    padding: $spacing-unit $spacing-unit 0px 30px;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  th {
+    border-bottom: 3px solid darken($grey-color-light, 4%);
+    border-bottom-color: darken($grey-color-light, 12%);
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: var(--font-primary);
+    color: #e1dede;
+    padding: 10px 20px 0px 30px;
+  }
+  td {
+    font-size: 16px;
+    font-family: var(--font-primary);
+    padding: 10px 30px;
+    color: #e1dede;
+  }
+  td a,
+  td li {
+    color: #e1dede;
+    &:visited {
+      color: #e1dede;
+    }
+    &:hover {
+      color: grey;
+    }
+  }
+  td ul {
+    padding: 0px;
   }
 }

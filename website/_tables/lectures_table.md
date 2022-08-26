@@ -1,4 +1,5 @@
 ---
+name: Lectures
 cols: ["Date", "Topic", "Video", "Handouts", "Files"]
 contents: [
 {

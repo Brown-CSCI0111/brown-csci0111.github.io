@@ -2,6 +2,9 @@
 ---
 
 <table>
+  <caption>
+    {{page.name}}
+  </caption>
   <tr>
     {% for col in page.cols %}
     <th>{{ col }}</th>
@@ -21,13 +24,17 @@
       {% else %} {{ i }} {% endif %}
       <br />
       {% else %}
-      <ul>
-        <li>
-          {% if k %}
-          <a href="{{i[k] | relative_url}}">{{k}}</a>
-          {% else %} {{ i }} {% endif %}
-        </li>
-      </ul>
+
+      <!-- Additional Resources Section for Multiple Items in Table -->
+      <!-- <ul> -->
+      <!-- <li> -->
+      {% if k %}
+      <a href="{{i[k] | relative_url}}">- {{k}}</a>
+      <br />
+      {% else %} - {{ i }} {% endif %}
+      <!-- </li> -->
+      <!-- </ul> -->
+
       {% endif %} {% endfor %} {% endif %}
     </td>
     {% endfor %}
