@@ -159,7 +159,8 @@ body {
   margin: 0px 200px;
   padding: 0px 20px;
   background: #121212;
-  background: linear-gradient(rgba(255, 0, 184, 0.2), rgba(18, 18, 18, 0.5));
+  // background: linear-gradient(rgba(255, 0, 184, 0.2), rgba(18, 18, 18, 0.5));
+  background: linear-gradient(rgba(0, 215, 0, 0.4), rgba(18, 18, 18, 0.5));
   height: auto;
 }
 
@@ -178,26 +179,6 @@ body {
   padding: 30px 50px 10px 50px;
   font-size: 50px;
   font-weight: bold;
-}
-
-.home-time {
-  // center of the page
-  //   display: flex;
-  //   flex-direction: column;
-  //   justify-content: center;
-  //   align-items: center;
-  //   width: 200px;
-  //   background: #2a2a2a;
-  //   border-radius: 25px;
-  //   padding: 5px;
-}
-
-.home-time-text {
-  background: #2a2a2a;
-  border-radius: 25px;
-  padding: 5px;
-  white-space: nowrap;
-  inline-size: min-content;
 }
 
 .course-description-container {
@@ -348,6 +329,21 @@ body {
   width: 200px;
   padding: 0px 10px;
   background: var(--sidebar-color);
+}
+
+.panel-section-header {
+  font-size: 24px;
+  font-weight: bold;
+  padding: 0px 10px;
+  color: var(--sidebar-text-color);
+  font-family: var(--font-primary);
+}
+
+.lecture-info-item {
+  font-size: 15px;
+  padding: 10px 10px 0px 10px;
+  color: var(--sidebar-text-color);
+  font-family: var(--font-primary);
 }
 
 .current-assignments-container {

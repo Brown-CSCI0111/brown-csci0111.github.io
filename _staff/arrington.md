@@ -6,5 +6,4 @@ email:
 bio:
 hometown:
 photo:
-throwback_photo:
 ---
