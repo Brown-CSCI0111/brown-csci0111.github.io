@@ -1,14 +1,53 @@
 {% include base.html %}
 <div>
-  <div>
-    <div>
-      <h3>{{ page.name }}</h3>
-      {% if page.pronouns %}
-      <p>Pronouns: {{ page.pronouns }}</p>
-      {% endif %} {% if page.hometown %}
-      <p>Hometown: {{ page.hometown }}</p>
-      {% endif %}
-      <p>{{ page.bio }}</p>
+  <div class="staff-card">
+    {% assign name_split = page.name | split: " " %} {% assign first_name =
+    name_split | first %}
+    <div
+      onclick="showModal(this)"
+      class="staff-image-container"
+      id="{{ first_name }}"
+    >
+      <img
+        src="../assets/images/staff/taylor-swift.jpeg"
+        alt="{{page.name}}'s Picture"
+        class="staff-image"
+      />
+    </div>
+    {% if page.name %}
+    <div class="staff-name">{{ page.name }}</div>
+    {% endif %} {% if page.cs-login %}
+    <div class="staff-cs-login">{{page.cs-login}}</div>
+    {% endif %} {% if page.pronouns %}
+    <div class="staff-pronouns">{{ page.pronouns }}</div>
+    {% endif %}
+  </div>
+
+  <div class="staff-modal" id="{{ first_name }}-modal">
+    <div class="modal-content">
+      <span onclick="closeModal(this)" class="modal-close" id="{{ first_name }}"
+        >&times;</span
+      >
+      <div class="modal-text">
+        <div>{{ page.name }}</div>
+        <div>
+          Top Songs: {% for song in page.top-songs %}
+          <div>{{ song }}</div>
+          {% endfor %}
+        </div>
+        <div>Hometown: {{ page.hometown }}</div>
+        <div>Bio: {{ page.bio }}</div>
+      </div>
     </div>
   </div>
 </div>
+
+<script>
+  function showModal(element) {
+    // Query select for the staff member's respective modal
+    document.querySelector("#" + element.id + "-modal").style.display = "block";
+  }
+  function closeModal(element) {
+    document.querySelector("#" + element.id + "-modal").style.display = "none";
+  }
+</script>
