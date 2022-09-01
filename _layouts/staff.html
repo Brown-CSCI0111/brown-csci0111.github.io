@@ -8,11 +8,19 @@
       class="staff-image-container"
       id="{{ first_name }}"
     >
+      {% if page.photo %}
+      <img
+        src="../assets/images/staff/{{page.photo}}"
+        alt="{{page.name}}'s Picture"
+        class="staff-image"
+      />
+      {% else %}
       <img
         src="../assets/images/staff/taylor-swift.jpeg"
         alt="{{page.name}}'s Picture"
         class="staff-image"
       />
+      {% endif %}
     </div>
     {% if page.name %}
     <div class="staff-name">{{ page.name }}</div>
