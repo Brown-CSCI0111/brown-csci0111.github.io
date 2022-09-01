@@ -1,7 +1,7 @@
 ---
-name: Riki
+name: Lizzy
 pronouns:
-role: UTA
+role: Professor
 email:
 cs-login:
 bio:

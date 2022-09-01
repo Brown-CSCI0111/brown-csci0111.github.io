@@ -1,9 +1,11 @@
 ---
 name: Nya
-pronouns:
+pronouns: she/her
 role: UTA
-email:
+email: nya_haseley-ayende@brown.edu
+cs-login: nhaseley
 bio:
-hometown:
+hometown: Pelham, NY
 photo:
+top-songs: []
 ---
