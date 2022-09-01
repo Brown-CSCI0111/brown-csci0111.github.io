@@ -6,12 +6,14 @@
 
   <body>
 
+
     <!-- {%- include header.html -%} -->
     {%- include left-panel-navigation.html -%}
-
-    <main class="home-page-container" aria-label="Content">
+    <div id="home-gradient"></div>
+    
+    <main id="home-page-container" aria-label="Content">
       <div class="welcome-message">
-        Welcome CS111!
+        Welcome CS111!!!
       </div>
 
       <div class="course-description-container">
@@ -22,17 +24,17 @@
       </div>
 
       <div class="home-quick-links-container">
-        <div class="home-quick-links-element">
+        <button class="home-quick-links-element">
           <a href="https://brew.sh/" class="nav-link">
             <img
               src="../assets/images/icons/google_doc_icon.png"
-              alt="Syallbus Icon"
+              alt="Syllabus Icon"
               class="home-quick-links-icon"
             />
             <span class="home-quick-links-text">Syllabus</span>
           </a>
-        </div>
-        <div class="home-quick-links-element">
+        </button>
+        <button class="home-quick-links-element">
           <a href="https://brew.sh/" class="nav-link">
             <img
               src="../assets/images/icons/edstem_icon.png"
@@ -41,7 +43,7 @@
             />
             <span class="home-quick-links-text">EdStem</span>
           </a>
-        </div>
+        </button>
         <div class="home-quick-links-element">
           <a href="https://brew.sh/" class="nav-link">
             <img
@@ -63,7 +65,7 @@
           </a>
         </div>
       </div>
-
+      
       <div class="home-hours-container">
         <div class="home-hours-header">
           Office Hours
@@ -71,22 +73,20 @@
         <div class="home-calendars-container">
           <div class="home-calendar-element">
             <div class="home-calendar-text">TA Hours</div>
-            <iframe src="https://calendar.google.com/calendar/embed?src=c_nrbk7cbk3iar099cpb8gqcpas4%40group.calendar.google.com&ctz=America%2FNew_York"
-              style="border: 0" width="420" height="300" title="TA Hours Calendar"></iframe>
+            <iframe src="https://calendar.google.com/calendar/embed?height=300&wkst=1&bgcolor=%23000000&ctz=America%2FNew_York&mode=WEEK&showTitle=0&showDate=0&showPrint=0&showTabs=1&showTz=1&showCalendars=0&showNav=1&src=Y19ucmJrN2NiazNpYXIwOTljcGI4Z3FjcGFzNEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%237986CB" style="border-width:0" width="420" height="300" frameborder="0" scrolling="no"></iframe>
           </div>
           <div class="home-calendar-element">
-            <div class="home-calendar-text">Kathi's Hours</div>
-            <iframe src="https://calendar.google.com/calendar/embed?src=c_rg3t8spo1m53qofet2oja0k4f4%40group.calendar.google.com&ctz=America%2FNew_York"
-              style="border: 0" width="420" height="300" title="Kathi's Hours Calendar"></iframe> 
+            <div class="home-calendar-text">Kathi Hours (WIP)</div>
+            <iframe src="https://calendar.google.com/calendar/embed?height=300&wkst=1&bgcolor=%23000000&ctz=America%2FNew_York&mode=WEEK&showTitle=0&showDate=0&showPrint=0&showTabs=1&showTz=1&showCalendars=0&showNav=1&src=Y19ucmJrN2NiazNpYXIwOTljcGI4Z3FjcGFzNEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%237986CB" style="border-width:0" width="420" height="300" frameborder="0" scrolling="no"></iframe>
           </div>
         </div>
       </div>
+      {%- include footer-announcement.html -%}
     </main>
 
     <div>
       {%- include right-panel.html -%}
     </div>
-    {%- include footer-announcement.html -%}
 
   </body>
 
