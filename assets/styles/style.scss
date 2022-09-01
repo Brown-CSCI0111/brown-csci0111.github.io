@@ -24,6 +24,12 @@
   --tran-03: all 0.3s ease;
   --tran-04: all 0.4s ease;
   --tran-05: all 0.5s ease;
+
+  /* SIDEBAR */
+  --sidebar-width: 220px;
+
+  /* ANNOUNCEMENT BAR */
+  --footer-height: 100px;
 }
 
 body {
@@ -74,7 +80,6 @@ body {
 }
 
 .menu-bar {
-  // display: none;
   display: flex;
   flex-direction: column;
   padding-top: 10px;
@@ -155,30 +160,27 @@ body {
 
 /* ===== HOME LAYOUT ===== */
 
-.home-page-container {
-  margin: 0px 200px;
-  padding: 0px 20px;
-  background: #121212;
-  // background: linear-gradient(rgba(255, 0, 184, 0.2), rgba(18, 18, 18, 0.5));
-  background: linear-gradient(rgba(0, 215, 0, 0.4), rgba(18, 18, 18, 0.5));
-  height: auto;
+#home-gradient {
+  background: linear-gradient(rgba(255, 0, 184, 0.2), rgba(18, 18, 18, 0.1));
+  height: 200px;
+  position: fixed;
+  width: 100%;
+  margin: 0 var(--sidebar-width);
 }
 
-.welcome-header {
-  padding: 30px 50px 10px 50px;
-  // align items: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: var(--text-color);
-  font-family: var(--font-primary);
+#home-page-container {
+  /* top | right | bottom | left */
+  margin: 0px var(--sidebar-width);
+  padding: 20px 100px;
+  z-index: 30;
 }
 
 .welcome-message {
-  padding: 30px 50px 10px 50px;
+  /* top | right | bottom | left */
+  padding: 30px 50px 20px 0px;
   font-size: 50px;
   font-weight: bold;
+  z-index: 30;
 }
 
 .course-description-container {
@@ -186,7 +188,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 0px 50px;
 }
 
 .course-description-text {
@@ -199,18 +200,26 @@ body {
 }
 
 .home-quick-links-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
   align-items: center;
-  padding: 0px 100px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 25px;
   margin-top: 20px;
 }
 
 .home-quick-links-element {
+  flex-grow: 1;
   background: var(--color-secondary);
-  padding-right: 10px;
+  padding: 0;
+  border: none;
   border-radius: 5px;
+  text-overflow: ellipsis;
+}
+
+.home-quick-links-element > a {
+  text-decoration: none;
 }
 
 .home-quick-links-icon {
@@ -218,12 +227,14 @@ body {
   width: 40px;
   justify-content: center;
   font-size: 20px;
-  margin: 0px 5px 0px 0px;
 }
 
 .home-quick-links-text {
   color: #e1dede;
   font-size: 15px;
+  padding: 0 10px;
+  text-decoration: none;
+  text-align: center;
 }
 
 .home-hours-container {
@@ -233,16 +244,15 @@ body {
 .home-hours-header {
   font-size: 28px;
   font-weight: bold;
-  padding: 0px 0px 0px 50px;
   color: #e1dede;
   font-family: var(--font-primary);
 }
 
 .home-calendars-container {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-around;
-  padding: 0px 50px;
 }
 
 .home-calendar-text {
@@ -253,8 +263,16 @@ body {
 }
 
 @media (max-width: 480px) {
+  :root {
+    --side-bar-width: 0;
+  }
+  #home-gradient {
+    margin: 0;
+  }
   .home-page-container {
+    /* top | right | bottom | left */
     margin: 0px 0px 30px 0px;
+    margin: 0;
     padding-top: 50px;
   }
   .welcome-message {
@@ -421,11 +439,10 @@ body {
 /* ===== ANNOUNCEMENT SECTION ===== */
 
 .footer-container {
-  position: absolute;
-  bottom: 0;
-  height: 100px;
-  margin-left: 220px;
-  width: calc(100% - 440px);
+  height: var(--footer-height);
+  /* top | right | bottom | left */
+  margin: 50px 0 0 0;
+  width: 100%;
   background: var(--color-primary);
 }
 
@@ -444,11 +461,12 @@ body {
 }
 
 .footer-text {
+  color: var(--text-color);
   font-size: 16px;
+  font-family: var(--font-primary);
   margin-top: -10px;
   padding-bottom: 15px;
-  color: var(--text-color);
-  font-family: var(--font-primary);
+  text-align: center;
 }
 
 .big-footer-divider {
@@ -703,12 +721,12 @@ table {
 /* ===== CALENDAR PAGE ===== */
 
 .calendar-container {
-  display: flex; 
-  flex-wrap: wrap; 
-  justify-content: center; 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
 }
 
-.calendar-element{
-  padding: 30px; 
+.calendar-element {
+  padding: 30px;
 }
