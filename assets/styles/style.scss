@@ -39,8 +39,6 @@ body {
   left: 0;
   height: 100%;
   width: 200px;
-  padding: 0px 10px;
-  //   display: none;
   background: var(--sidebar-color);
   font-family: var(--font-primary);
 }
@@ -48,28 +46,29 @@ body {
 .sidebar-toggle {
   position: absolute;
   top: 0;
-  display: flex;
-  display: none;
   flex-direction: column;
   justify-content: space-between;
   width: 40px;
   height: 30px;
   padding: 10px;
+  display: none;
 }
 
 @media (max-width: 480px) {
   .sidebar-toggle {
     display: flex;
-    background: #000;
   }
   .sidebar-content {
-    display: none;
     flex-direction: column;
     align-items: flex-start;
+    background: black;
+    height: 100%;
+    padding-top: 40px;
+    display: none;
   }
   .sidebar {
     background: none;
-    display: none;
+    width: 60%;
   }
 }
 
