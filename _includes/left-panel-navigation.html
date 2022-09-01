@@ -1,12 +1,12 @@
 <div>
   {%- assign default_paths = site.pages | map: "path" -%} {%- assign page_paths
   = site.header_pages | default: default_paths -%} {%- if page_paths -%}
+  {%- assign is_toggled = false -%}
   <nav class="sidebar">
-    <div class="sidebar-toggle">
+    <div class="sidebar-toggle" onclick="toggle()">
       <img src="../assets/images/icons/bars_icon.png" alt="Toggle Menu Bars" />
     </div>
-
-    <div class="sidebar-content">
+    <div class="sidebar-content" id="sidebarcontent">
       <div class="menu-bar">
         {%- for path in page_paths -%} {%- assign curr_page = site.pages |
         where: "path", path | first -%} {%- if curr_page.title -%}
@@ -40,3 +40,15 @@
   </nav>
   {%- endif -%}
 </div>
+
+<script>
+  function toggle() {
+    let sidebarContent = document.querySelector("#sidebarcontent")
+    console.log(sidebarContent.style.display)
+    if (sidebarContent.style.display == 'none' || sidebarContent.style.display == '') {
+      sidebarContent.style.display = 'flex'
+    } else {
+      sidebarContent.style.display = 'none'
+    }
+  }
+</script>
