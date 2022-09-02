@@ -23,7 +23,7 @@
         {%- endif -%} {%- endfor -%}
       </div>
 
-      <div class="divider" />
+      <div class="divider"></div>
 
       <div class="contact-info-container">
         <div class="contact-info-header">Contact</div>
@@ -44,7 +44,6 @@
 <script>
   function toggle() {
     let sidebarContent = document.querySelector("#sidebarcontent")
-    console.log(sidebarContent.style.display)
     if (sidebarContent.style.display == 'none' || sidebarContent.style.display == '') {
       sidebarContent.style.display = 'flex'
     } else {
