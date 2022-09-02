@@ -642,9 +642,12 @@ table {
   // place the item in the center of the container
   // margin: 0 auto;
   // center the item horizontally
-  display: block;
+  // display: block;
   // make the item take up the full width
   // margin-bottom: 20px;
+  object-fit: cover;
+  width: 200px;
+  height: 180px;
 }
 
 .staff-name {

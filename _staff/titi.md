@@ -6,6 +6,6 @@ email: yifan_zhang4@brown.edu
 cs-login: yzhan589
 bio: sophomore
 hometown: Shanghai, China
-photo:
+photo: Titi.jpg
 top-songs: [Late Night Talking, As It Was, As It Was, As It Was, As It Was]
 ---
