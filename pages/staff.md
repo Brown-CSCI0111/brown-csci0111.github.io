@@ -21,7 +21,7 @@ permalink: /staff
 
 ## Professors
 
-<div>
+<div class="staff-container">
   {% for staffer in Profs %}
   {{ staffer }}
   {% endfor %}
@@ -35,7 +35,7 @@ permalink: /staff
 
 ## HTA
 
-<div>
+<div class="staff-container">
   {% for staffer in HTAs %}
   {{ staffer }}
   {% endfor %}
@@ -49,7 +49,7 @@ permalink: /staff
 
 ## UTA
 
-<div>
+<div class="staff-container">
   {% for staffer in UTAs %}
   {{ staffer }}
   {% endfor %}

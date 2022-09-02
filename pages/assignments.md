@@ -11,3 +11,5 @@ permalink: /assignments
 {% include table_helper.html name="homeworks_table" %}
 
 {% include table_helper.html name="projects_table" %}
+
+{% include table_helper.html name="drills_table" %}

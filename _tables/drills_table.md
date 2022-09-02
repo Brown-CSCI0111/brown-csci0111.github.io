@@ -1,9 +1,9 @@
 ---
-name: Homeworks
-cols: ["Assignment", "Out", "In"]
+name: Drills
+cols: ["Drill", "Out", "In"]
 contents: [
     {
-      "Assignment": [{ "Homework 0": "https://hackmd.io/@csci0200/hw0-spr22" }],
+      "Drill": [{ "Drill 0": "https://hackmd.io/@csci0200/hw0-spr22" }],
       "Out": ["01/26/22"],
       "In": ["01/28/22"],
     },
