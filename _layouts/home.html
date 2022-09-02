@@ -5,89 +5,187 @@
   {%- include head.html -%}
 
   <body>
-
-
-    <!-- {%- include header.html -%} -->
-    {%- include left-panel-navigation.html -%}
-    <div id="home-gradient"></div>
-    
-    <main id="home-page-container" aria-label="Content">
-      <div class="welcome-message">
-        Welcome CS111!!!
-      </div>
-
-      <div class="course-description-container">
-        <div class="course-description-text">
-          CSCI:0111 is an introductory course for both concentrators and non-concentrators who want to understand computing through the lens of data. It covers the fundamentals needed for additional CS courses, while also being designed as a useful stopping point for students who want to use a bit of computing, data analysis, or programming in other disciplines.
-          The course expects no prior programming experience. It is paced more gently than CSCI 0150 or CSCI 0170 (which also assume no prior experience), while also focusing on styles of programming that are in common practice across many disciplines. The course uses two programming languages (initially Pyret and later Python), with the first explicitly designed to transition into the second.
-        </div>
-      </div>
-
-      <div class="home-quick-links-container">
-        <button class="home-quick-links-element">
-          <a href="https://brew.sh/" class="nav-link">
-            <img
-              src="../assets/images/icons/google_doc_icon.png"
-              alt="Syllabus Icon"
-              class="home-quick-links-icon"
-            />
-            <span class="home-quick-links-text">Syllabus</span>
-          </a>
-        </button>
-        <button class="home-quick-links-element">
-          <a href="https://brew.sh/" class="nav-link">
-            <img
-              src="../assets/images/icons/edstem_icon.png"
-              alt="EdStem Icon"
-              class="home-quick-links-icon"
-            />
-            <span class="home-quick-links-text">EdStem</span>
-          </a>
-        </button>
-        <div class="home-quick-links-element">
-          <a href="https://brew.sh/" class="nav-link">
-            <img
-              src="../assets/images/icons/gradescope_icon.png"
-              alt="Gradescope Icon"
-              class="home-quick-links-icon"
-            />
-            <span class="home-quick-links-text">Gradescope</span>
-          </a>
-        </div>
-        <div class="home-quick-links-element">
-          <a href="https://brew.sh/" class="nav-link">
-            <img
-              src="../assets/images/icons/google_form_icon.png"
-              alt="Anonymous Feedback Form Icon"
-              class="home-quick-links-icon"
-            />
-            <span class="home-quick-links-text">Anonymous Feedback Form</span>
-          </a>
-        </div>
-      </div>
+    <div id="home-page-grid">
+      <div>
+        {%- assign default_paths = site.pages | map: "path" -%} {%- assign page_paths
+        = site.header_pages | default: default_paths -%} {%- if page_paths -%}
+        {%- assign is_toggled = false -%}
+        <nav class="home-sidebar">
+          <div class="sidebar-toggle" onclick="toggle()">
+            <img src="../assets/images/icons/bars_icon.png" alt="Toggle Menu Bars" />
+          </div>
+          <div class="sidebar-content" id="sidebarcontent">
+            <div class="menu-bar">
+              {%- for path in page_paths -%} {%- assign curr_page = site.pages |
+              where: "path", path | first -%} {%- if curr_page.title -%}
+              <div class="nav-element">
+                <a href="{{ curr_page.url | relative_url }}" class="nav-link">
+                  <img
+                    src="../assets/images/icons/{{curr_page.icon}}"
+                    alt="{{curr_page.title}}"
+                    class="nav-icon"
+                  />
+                  <span class="nav-text">{{ curr_page.title | escape }}</span>
+                </a>
+              </div>
+              {%- endif -%} {%- endfor -%}
+            </div>
       
-      <div class="home-hours-container">
-        <div class="home-hours-header">
-          Office Hours
-        </div>
-        <div class="home-calendars-container">
-          <div class="home-calendar-element">
-            <div class="home-calendar-text">TA Hours</div>
-            <iframe src="https://calendar.google.com/calendar/embed?height=300&wkst=1&bgcolor=%23000000&ctz=America%2FNew_York&mode=WEEK&showTitle=0&showDate=0&showPrint=0&showTabs=1&showTz=1&showCalendars=0&showNav=1&src=Y19ucmJrN2NiazNpYXIwOTljcGI4Z3FjcGFzNEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%237986CB" style="border-width:0" width="420" height="300" frameborder="0" scrolling="no"></iframe>
+            <div class="divider"></div>
+      
+            <div class="contact-info-container">
+              <div class="contact-info-header">Contact</div>
+              <div class="contact-info-item">
+                <span class="name">Kathi Fisler : </span>
+                <span class="email">kfisler@cs.brown.edu</span>
+              </div>
+              <div class="contact-info-item">
+                <span class="name">HTAs : </span>
+                <span class="email">cs0111headtas@cs.brown.edu</span>
+              </div>
+            </div>
           </div>
-          <div class="home-calendar-element">
-            <div class="home-calendar-text">Kathi Hours (WIP)</div>
-            <iframe src="https://calendar.google.com/calendar/embed?height=300&wkst=1&bgcolor=%23000000&ctz=America%2FNew_York&mode=WEEK&showTitle=0&showDate=0&showPrint=0&showTabs=1&showTz=1&showCalendars=0&showNav=1&src=Y19ucmJrN2NiazNpYXIwOTljcGI4Z3FjcGFzNEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%237986CB" style="border-width:0" width="420" height="300" frameborder="0" scrolling="no"></iframe>
-          </div>
-        </div>
+        </nav>
+        {%- endif -%}
       </div>
-      {%- include footer-announcement.html -%}
-    </main>
+      <div id="grid-content-area">
+        <div id="gradient-container">
+          <div id="home-gradient"></div>
+        </div>
+        <main id="home-page-container" aria-label="Content">
+          <div class="welcome-message">
+            Welcome CS111!
+          </div>
 
-    <div>
-      {%- include right-panel.html -%}
+          <div class="course-description-container">
+            <div class="course-description-text">
+              CSCI:0111 is an introductory course for both concentrators and non-concentrators who want to understand computing through the lens of data. It covers the fundamentals needed for additional CS courses, while also being designed as a useful stopping point for students who want to use a bit of computing, data analysis, or programming in other disciplines.
+              The course expects no prior programming experience. It is paced more gently than CSCI 0150 or CSCI 0170 (which also assume no prior experience), while also focusing on styles of programming that are in common practice across many disciplines. The course uses two programming languages (initially Pyret and later Python), with the first explicitly designed to transition into the second.
+            </div>
+          </div>
+
+          <div class="home-quick-links-container">
+            <button class="home-quick-links-element">
+              <a href="https://brew.sh/" class="nav-link">
+                <img
+                  src="../assets/images/icons/google_doc_icon.png"
+                  alt="Syllabus Icon"
+                  class="home-quick-links-icon"
+                />
+                <span class="home-quick-links-text">Syllabus</span>
+              </a>
+            </button>
+            <button class="home-quick-links-element">
+              <a href="https://brew.sh/" class="nav-link">
+                <img
+                  src="../assets/images/icons/edstem_icon.png"
+                  alt="EdStem Icon"
+                  class="home-quick-links-icon"
+                />
+                <span class="home-quick-links-text">EdStem</span>
+              </a>
+            </button>
+            <div class="home-quick-links-element">
+              <a href="https://brew.sh/" class="nav-link">
+                <img
+                  src="../assets/images/icons/gradescope_icon.png"
+                  alt="Gradescope Icon"
+                  class="home-quick-links-icon"
+                />
+                <span class="home-quick-links-text">Gradescope</span>
+              </a>
+            </div>
+            <div class="home-quick-links-element">
+              <a href="https://brew.sh/" class="nav-link">
+                <img
+                  src="../assets/images/icons/google_form_icon.png"
+                  alt="Anonymous Feedback Form Icon"
+                  class="home-quick-links-icon"
+                />
+                <span class="home-quick-links-text">Anonymous Feedback Form</span>
+              </a>
+            </div>
+          </div>
+            <div class="home-hours-container">
+              <div class="home-hours-header">
+                Office Hours
+              </div>
+              <div class="home-calendars-container">
+                <div class="home-calendar-element">
+                  <div class="home-calendar-text">TA Hours</div>
+                  <iframe src="https://calendar.google.com/calendar/embed?height=300&wkst=1&bgcolor=%23000000&ctz=America%2FNew_York&mode=WEEK&showTitle=0&showDate=0&showPrint=0&showTabs=1&showTz=1&showCalendars=0&showNav=1&src=Y19ucmJrN2NiazNpYXIwOTljcGI4Z3FjcGFzNEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%237986CB" style="border-width:0" width="420" height="300" frameborder="0" scrolling="no"></iframe>
+                </div>
+                <div class="home-calendar-element">
+                  <div class="home-calendar-text">Kathi Hours (WIP)</div>
+                  <iframe src="https://calendar.google.com/calendar/embed?height=300&wkst=1&bgcolor=%23000000&ctz=America%2FNew_York&mode=WEEK&showTitle=0&showDate=0&showPrint=0&showTabs=1&showTz=1&showCalendars=0&showNav=1&src=Y19ucmJrN2NiazNpYXIwOTljcGI4Z3FjcGFzNEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%237986CB" style="border-width:0" width="420" height="300" frameborder="0" scrolling="no"></iframe>
+                </div>
+              </div>
+            </div>
+            {%- include footer-announcement.html -%}
+          </main>
+      </div>
+      <div>
+        <div class="right-panel-container">
+          <div class="contact-info-container">
+            <div class="panel-section-header">Lecture Time</div>
+            <div class="lecture-info-item">
+              <span class="name">MWF 10 - 10:50 AM</span>
+            </div>
+          </div>
+        
+          <div class="divider"></div>
+        
+          <div class="current-assignments-container">
+            <div class="panel-section-header">Current Assignments</div>
+            <div class="current-assignments-element">
+              <img
+                src="../assets/images/icons/assignments_icon.png"
+                alt="Assignments Icon"
+                class="current-assignments-icon"
+              />
+              <span class="current-assignments-text">No Homework Out!</span>
+            </div>
+            <div class="current-assignments-element">
+              <img
+                src="../assets/images/icons/assignments_icon.png"
+                alt="Assignments Icon"
+                class="current-assignments-icon"
+              />
+              <span class="current-assignments-text">No Project Out!</span>
+            </div>
+            <div class="current-assignments-element">
+              <img
+                src="../assets/images/icons/assignments_icon.png"
+                alt="Assignments Icon"
+                class="current-assignments-icon"
+              />
+              <span class="current-assignments-text">No Drill Out!</span>
+            </div>
+          </div>
+        
+          <div class="divider"></div>
+        
+          <div class="important-dates-container">
+            <div class="panel-section-header">Important Dates</div>
+            <div class="important-dates-text">Midterm 1 - 8/23</div>
+            <div class="important-dates-text">Midterm 2 - 9/23</div>
+            <div class="important-dates-text">Final -12/15 @11 AM Location: TBD</div>
+          </div>
+        </div>
+        
+        <!-- {%- include right-panel.html -%} -->
+      </div>
     </div>
-
   </body>
-
+  <script>
+    function toggle() {
+      let sidebarContent = document.querySelector("#sidebarcontent")
+      if (sidebarContent.style.display == 'none' || sidebarContent.style.display == '') {
+        sidebarContent.style.display = 'flex'
+        sidebarContent.style.position = 'fixed';
+      } else {
+        sidebarContent.style.display = 'none'
+      }
+    }
+  </script>
 </html>
