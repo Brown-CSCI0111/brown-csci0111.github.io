@@ -1,6 +1,7 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
+// Dashes here are required!
 
 @import "minima";
 
@@ -24,6 +25,12 @@
   --tran-03: all 0.3s ease;
   --tran-04: all 0.4s ease;
   --tran-05: all 0.5s ease;
+
+  /* SIDEBAR */
+  --sidebar-width: 220px;
+
+  /* ANNOUNCEMENT BAR */
+  --footer-height: 100px;
 }
 
 body {
@@ -32,6 +39,9 @@ body {
 }
 
 /* ===== SIDEBAR NAVIGATION ===== */
+
+.home-sidebar {
+}
 
 .sidebar {
   position: fixed;
@@ -43,8 +53,8 @@ body {
   font-family: var(--font-primary);
 }
 
-.sidebar-toggle {
-  position: absolute;
+.home-sidebar-toggle {
+  position: fixed;
   top: 0;
   flex-direction: column;
   justify-content: space-between;
@@ -52,6 +62,19 @@ body {
   height: 30px;
   padding: 10px;
   display: none;
+  z-index: 30;
+}
+
+.sidebar-toggle {
+  position: fixed;
+  top: 0;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 40px;
+  height: 30px;
+  padding: 10px;
+  display: none;
+  z-index: 30;
 }
 
 @media (max-width: 480px) {
@@ -73,7 +96,6 @@ body {
 }
 
 .menu-bar {
-  // display: none;
   display: flex;
   flex-direction: column;
   padding-top: 10px;
@@ -154,30 +176,45 @@ body {
 
 /* ===== HOME LAYOUT ===== */
 
-.home-page-container {
-  margin: 0px 200px;
-  padding: 0px 20px;
-  background: #121212;
-  // background: linear-gradient(rgba(255, 0, 184, 0.2), rgba(18, 18, 18, 0.5));
-  background: linear-gradient(rgba(0, 215, 0, 0.4), rgba(18, 18, 18, 0.5));
-  height: auto;
+#home-page-grid {
+  display: grid;
+  grid-template-columns: 15% 70% 15%;
 }
 
-.welcome-header {
-  padding: 30px 50px 10px 50px;
-  // align items: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: var(--text-color);
-  font-family: var(--font-primary);
+#grid-content-area {
+  overflow-x: hidden;
+}
+
+.gradient {
+  background: linear-gradient(rgba(255, 0, 184, 0.2), rgba(18, 18, 18, 0.1));
+  height: 200px;
+  width: 100%; 
+}
+
+#home-gradient {
+  background: linear-gradient(rgba(255, 0, 184, 0.2), rgba(18, 18, 18, 0.1));
+  height: 200px;
+  width: 100%; 
+  // overflow:visible;
+}
+
+#gradient-container {
+  height: 5px;
+  overflow-x: clip;
+  overflow-y: visible;
+}
+
+#home-page-container {
+  padding: 20px 100px;
+  z-index: 30;
 }
 
 .welcome-message {
-  padding: 30px 50px 10px 50px;
+  /* top | right | bottom | left */
+  padding: 30px 50px 20px 0px;
   font-size: 50px;
   font-weight: bold;
+  z-index: 30;
 }
 
 .course-description-container {
@@ -185,7 +222,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 0px 50px;
 }
 
 .course-description-text {
@@ -198,18 +234,26 @@ body {
 }
 
 .home-quick-links-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
   align-items: center;
-  padding: 0px 100px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 25px;
   margin-top: 20px;
 }
 
 .home-quick-links-element {
+  flex-grow: 1;
   background: var(--color-secondary);
-  padding-right: 10px;
+  padding: 0;
+  border: none;
   border-radius: 5px;
+  text-overflow: ellipsis;
+}
+
+.home-quick-links-element > a {
+  text-decoration: none;
 }
 
 .home-quick-links-icon {
@@ -217,12 +261,14 @@ body {
   width: 40px;
   justify-content: center;
   font-size: 20px;
-  margin: 0px 5px 0px 0px;
 }
 
 .home-quick-links-text {
   color: #e1dede;
   font-size: 15px;
+  padding: 0 10px;
+  text-decoration: none;
+  text-align: center;
 }
 
 .home-hours-container {
@@ -232,16 +278,15 @@ body {
 .home-hours-header {
   font-size: 28px;
   font-weight: bold;
-  padding: 0px 0px 0px 50px;
   color: #e1dede;
   font-family: var(--font-primary);
 }
 
 .home-calendars-container {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-around;
-  padding: 0px 50px;
 }
 
 .home-calendar-text {
@@ -252,8 +297,44 @@ body {
 }
 
 @media (max-width: 480px) {
+  #home-page-container {
+    padding: 10px 50px;
+  }
+  .right-panel-container {
+    display: none;
+  }
+  .footer-container {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  :root {
+    --side-bar-width: 0;
+  }
+  .page-container {
+    margin-left: 0px;
+    padding-left: 0px;
+    z-index: -1;
+  }
+  .banner-text-header {
+    font-size: 25px;
+  }
+  .banner-text-title {
+    font-size: 50px;
+    text-align: center;
+  }
+  .banner-text-footer {
+    font-size: 12px;
+  }
+  #home-page-grid {
+    display: grid;
+    grid-template-columns: 0fr 1fr 0fr;
+  }  
   .home-page-container {
+    /* top | right | bottom | left */
     margin: 0px 0px 30px 0px;
+    margin: 0;
     padding-top: 50px;
   }
   .welcome-message {
@@ -320,15 +401,15 @@ body {
 
 /* ===== RIGHT PANEL ===== */
 
-.right-panel-container {
-  position: fixed;
-  top: 0;
-  right: 0;
-  height: 100%;
-  width: 200px;
-  padding: 0px 10px;
-  background: var(--sidebar-color);
-}
+// .right-panel-container {
+//   position: fixed;
+//   top: 0;
+//   right: 0;
+//   height: 100%;
+//   width: 200px;
+//   padding: 0px 10px;
+//   background: var(--sidebar-color);
+// }
 
 .panel-section-header {
   font-size: 24px;
@@ -407,24 +488,13 @@ body {
   padding-top: 20px;
 }
 
-@media (max-width: 480px) {
-  .right-panel-container {
-    display: none;
-  }
-}
-
-@media only screen and (device-width: 768px) {
-  /* For general iPad layouts */
-}
-
 /* ===== ANNOUNCEMENT SECTION ===== */
 
 .footer-container {
-  position: absolute;
-  bottom: 0;
-  height: 100px;
-  margin-left: 220px;
-  width: calc(100% - 440px);
+  height: var(--footer-height);
+  /* top | right | bottom | left */
+  margin: 50px 0 0 0;
+  width: 100%;
   background: var(--color-primary);
 }
 
@@ -443,23 +513,18 @@ body {
 }
 
 .footer-text {
+  color: var(--text-color);
   font-size: 16px;
+  font-family: var(--font-primary);
   margin-top: -10px;
   padding-bottom: 15px;
-  color: var(--text-color);
-  font-family: var(--font-primary);
+  text-align: center;
 }
 
 .big-footer-divider {
   height: 3px;
   width: 60%;
   background: #dbdbdb;
-}
-
-@media (max-width: 480px) {
-  .footer-container {
-    display: none;
-  }
 }
 
 @media only screen and (device-width: 768px) {
@@ -535,24 +600,6 @@ body {
   color: #fff;
   z-index: 10;
   color: #e3e3e3;
-}
-
-@media (max-width: 480px) {
-  .page-container {
-    margin-left: 0px;
-    padding-left: 0px;
-    z-index: -1;
-  }
-  .banner-text-header {
-    font-size: 25px;
-  }
-  .banner-text-title {
-    font-size: 50px;
-    text-align: center;
-  }
-  .banner-text-footer {
-    font-size: 12px;
-  }
 }
 
 /* ===== GENERATING TABLES LAYOUT ===== */
