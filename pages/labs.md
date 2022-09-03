@@ -8,4 +8,4 @@ banner: labs_banner.png
 permalink: /labs
 ---
 
-{% include table_helper.html name="labs_table" %}
+{% include assignment_table_helper.html name="labs_table" %}

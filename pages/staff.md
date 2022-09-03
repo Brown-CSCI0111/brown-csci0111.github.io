@@ -19,7 +19,7 @@ permalink: /staff
 
 {% if Profs.size != 0 %}
 
-## Professors
+## Professor & GTA
 
 <div class="staff-container">
   {% for staffer in Profs %}
