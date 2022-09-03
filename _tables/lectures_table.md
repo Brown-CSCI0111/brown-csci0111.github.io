@@ -4,7 +4,7 @@ contents: [
 {
   "Date": ["09/07/22"],
   "Topic": ["Course Overview and Creating Images"],
-  "Video": [{"video":""}],
+  "Video": [],
   "Readings": [{"textbook 3.1-3.2", "https://dcic-world.org/2022-08-28/getting-started.html#%28part._flags-notice-wonder%29"}],
   "Files": []
   }
