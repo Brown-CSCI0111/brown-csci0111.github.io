@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: banner-content
 title: Lectures
 banner-header: Podcast
 banner-footer: All Things CS-Related

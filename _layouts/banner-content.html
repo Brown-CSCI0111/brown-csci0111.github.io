@@ -4,11 +4,10 @@
 
   {%- include head.html -%}
 
-  <body>
-
-    {%- include left-panel-navigation.html -%}
-
-    <main class="page-container" aria-label="Content">
+  <body class="banner-content-layout">
+    {%- include left-panel-nav.html -%}  
+          
+      <main class="page-container" aria-label="Content">
         <div class="banner-container">
           <img
           src="../assets/images/banners/{{page.banner}}"
@@ -43,10 +42,10 @@
     </main>
 
     <!-- Include right panel and footer announcements only for home page. -->
-    {% if page.title == "Home" %}
+    <!-- {% if page.title == "Home" %}
     {%- include right-panel.html -%}
     {%- include footer-announcement.html -%}
-    {% endif %}
+    {% endif %} -->
 
   </body>
 
