@@ -64,16 +64,23 @@ header_pages:
   - pages/staff.md
 
 collections:
-  tables:
+  table_lectures:
+  table_assignments:
   staff:
 
 defaults:
   -
     scope:
       path: ""
-      type: "tables"
+      type: "table_assignments"
     values:
       layout: "generate_tables"
+  -
+    scope:
+      path: ""
+      type: "table_lectures"
+    values:
+      layout: "generate_lectures_table"
   -
     scope:
       path: ""

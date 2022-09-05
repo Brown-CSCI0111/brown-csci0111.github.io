@@ -8,8 +8,8 @@ banner: assignments_banner.png
 permalink: /assignments
 ---
 
-{% include table_helper.html name="homeworks_table" %}
+{% include assignment_table_helper.html name="homeworks_table" %}
 
-{% include table_helper.html name="projects_table" %}
+{% include assignment_table_helper.html name="projects_table" %}
 
-{% include table_helper.html name="drills_table" %}
+{% include assignment_table_helper.html name="drills_table" %}

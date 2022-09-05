@@ -1,12 +1,12 @@
 {% include base.html %}
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<html lang="{{ page.lang | default: site.lang | default: " en" }}">
 
-  {%- include head.html -%}
+{%- include head.html -%}
 
   <body>
     <div id="home-page-grid">
-      {%- include left-panel-nav.html -%}      
+      {%- include left-panel-nav.html -%}
       <div id="grid-content-area">
         <div id="gradient-container">
           <div id="home-gradient"></div>
@@ -15,75 +15,72 @@
           <div id="welcome-message">
             Welcome CS111!
           </div>
-
           <div class="course-description-container">
             <div class="course-description-text">
-              CSCI:0111 is an introductory course for both concentrators and non-concentrators who want to understand computing through the lens of data. It covers the fundamentals needed for additional CS courses, while also being designed as a useful stopping point for students who want to use a bit of computing, data analysis, or programming in other disciplines.
-              The course expects no prior programming experience. It is paced more gently than CSCI 0150 or CSCI 0170 (which also assume no prior experience), while also focusing on styles of programming that are in common practice across many disciplines. The course uses two programming languages (initially Pyret and later Python), with the first explicitly designed to transition into the second.
+              CSCI0111 is an introductory course for both
+              concentrators and non-concentrators who want to understand
+              computing through the lens of data. It covers the
+              fundamentals needed for additional CS or Data Fluency courses, while also being designed as a useful
+              stopping point for students who want to use a bit of computing, data analysis, or programming in other
+              disciplines.
+              The course expects no prior programming experience. It is paced more gently than CSCI 0150 or CSCI 0170
+              (which also assume no prior experience), while also focusing on styles of programming that are in common
+              practice across many disciplines. The course uses two programming languages (initially Pyret and later
+              Python), with the first explicitly designed to transition
+              into the second.
+              <br>
+              The online section is only for students with a conflict
+              with the lecture time. Lectures will be recorded and posted
+              within a few hours of class. Labs and the final are
+              in-person for everyone across both sections.
             </div>
           </div>
-      <div class="home-quick-links-container">
-        <div class="home-quick-links-element">
-          <a href="https://hackmd.io/@cs111/syllabus-f22" class="nav-link">
-            <img
-              src="../assets/images/icons/google_doc_icon.png"
-              alt="Syallbus Icon"
-              class="home-quick-links-icon"
-            />
-            <span class="home-quick-links-text">Syllabus</span>
-          </a>
-        </div>
-        <div class="home-quick-links-element">
-          <a href="https://edstem.org/us/courses/27983" class="nav-link">
-            <img
-              src="../assets/images/icons/edstem_icon.png"
-              alt="EdStem Icon"
-              class="home-quick-links-icon"
-            />
-            <span class="home-quick-links-text">EdStem</span>
-          </a>
-        </div>
-        <div class="home-quick-links-element">
-          <a href="https://www.gradescope.com/courses/423395" class="nav-link">
-            <img
-              src="../assets/images/icons/gradescope_icon.png"
-              alt="Gradescope Icon"
-              class="home-quick-links-icon"
-            />
-            <span class="home-quick-links-text">Gradescope</span>
-          </a>
-        </div>
-        <div class="home-quick-links-element">
-          <a href="https://forms.gle/34k74C2srmQjjPZW7" class="nav-link">
-            <img
-              src="../assets/images/icons/google_form_icon.png"
-              alt="Anonymous Feedback Form Icon"
-              class="home-quick-links-icon"
-            />
-            <span class="home-quick-links-text">Anonymous Feedback Form</span>
-          </a>
-        </div>
-      </div>
-            <div class="home-hours-container">
-              <div class="home-hours-header">
-                Office Hours
+          <div class="home-quick-links-container">
+            <div class="home-quick-links-element">
+              <a href="https://hackmd.io/@cs111/syllabus-f22" class="nav-link">
+                <img src="../assets/images/icons/google_doc_icon.png" alt="Syallbus Icon" class="home-quick-links-icon" />
+                <span class="home-quick-links-text">Syllabus</span>
+              </a>
+            </div>
+            <div class="home-quick-links-element">
+              <a href="https://edstem.org/us/courses/27983" class="nav-link">
+                <img src="../assets/images/icons/edstem_icon.png" alt="EdStem Icon" class="home-quick-links-icon" />
+                <span class="home-quick-links-text">EdStem</span>
+              </a>
+            </div>
+            <div class="home-quick-links-element">
+              <a href="https://www.gradescope.com/courses/423395" class="nav-link">
+                <img src="../assets/images/icons/gradescope_icon.png" alt="Gradescope Icon"
+                  class="home-quick-links-icon" />
+                <span class="home-quick-links-text">Gradescope</span>
+              </a>
+            </div>
+            <div class="home-quick-links-element">
+              <a href="https://forms.gle/34k74C2srmQjjPZW7" class="nav-link">
+                <img src="../assets/images/icons/google_form_icon.png" alt="Anonymous Feedback Form Icon"
+                  class="home-quick-links-icon" />
+                <span class="home-quick-links-text">Anonymous Feedback Form</span>
+              </a>
+            </div>
+          </div>
+          <div class="home-hours-container">
+            <div class="home-hours-header">
+              Office Hours
+            </div>
+            <div class="home-calendars-container">
+              <div class="home-calendar-element">
+                <div class="home-calendar-text">TA Hours</div>
+                <iframe src="https://calendar.google.com/calendar/embed?height=300&wkst=1&bgcolor=%23000000&ctz=America%2FNew_York&mode=WEEK&showTitle=0&showDate=0&showPrint=0&showTabs=1&showTz=1&showCalendars=0&showNav=1&src=Y19ucmJrN2NiazNpYXIwOTljcGI4Z3FjcGFzNEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%237986CB" style="border-width:0" width="420" height="300" frameborder="0" scrolling="no"></iframe>
               </div>
-              <div class="home-calendars-container">
-                <div class="home-calendar-element">
-                  <div class="home-calendar-text">TA Hours</div>
-                  <iframe src="https://calendar.google.com/calendar/embed?height=300&wkst=1&bgcolor=%23000000&ctz=America%2FNew_York&mode=WEEK&showTitle=0&showDate=0&showPrint=0&showTabs=1&showTz=1&showCalendars=0&showNav=1&src=Y19ucmJrN2NiazNpYXIwOTljcGI4Z3FjcGFzNEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%237986CB" style="border-width:0" width="420" height="300" frameborder="0" scrolling="no"></iframe>
-                </div>
-                <div class="home-calendar-element">
-                  <div class="home-calendar-text">Kathi Hours (WIP)</div>
-                  <iframe src="https://calendar.google.com/calendar/embed?height=300&wkst=1&bgcolor=%23000000&ctz=America%2FNew_York&mode=WEEK&showTitle=0&showDate=0&showPrint=0&showTabs=1&showTz=1&showCalendars=0&showNav=1&src=Y19ucmJrN2NiazNpYXIwOTljcGI4Z3FjcGFzNEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%237986CB" style="border-width:0" width="420" height="300" frameborder="0" scrolling="no"></iframe>
-                </div>
+              <div class="home-calendar-element">
+                <div class="home-calendar-text">Kathi Hours (WIP)</div>
+                <iframe src="https://calendar.google.com/calendar/embed?height=300&wkst=1&bgcolor=%23000000&ctz=America%2FNew_York&mode=WEEK&showTitle=0&showDate=0&showPrint=0&showTabs=1&showTz=1&showCalendars=0&showNav=1&src=Y19ucmJrN2NiazNpYXIwOTljcGI4Z3FjcGFzNEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%237986CB" style="border-width:0" width="420" height="300" frameborder="0" scrolling="no"></iframe>
               </div>
             </div>
-          </main>
+          </div>
+        </main>
       </div>
-
-      {%- include right-panel.html -%}      
-      
+      {%- include right-panel.html -%}
     </div>
   </body>
   <script>

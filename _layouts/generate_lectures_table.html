@@ -1,0 +1,64 @@
+---
+---
+
+<div class="lecture-container">
+  <div class="lecture-wrapper">
+    <div class="lecture-menu">
+      <p>All Episodes</p>
+      <p>Newest to Oldest</p>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="lecture-content">
+      {% for entry in page.contents %}
+      <div class="lecture-title">
+        <a href="{{entry['Video']}}">
+          {{ entry['Date'] }} {{ entry['Topic'] }}
+        </a>
+      </div>
+
+      <div class="lecture-readings">
+        <span>
+          {% if entry['Readings'].size == 0 %} Readings: N/A {% else %}
+          Readings: {% for i in entry['Readings'] %} {% assign k = i.first.first
+          %} {% if k %}
+          <a href="{{i[k] | relative_url}}">{{k}}</a>{% if forloop.last == false
+          %},{% endif %} {% else %} {{ i }} {% endif %} {% endfor %} {% endif %}
+        </span>
+      </div>
+      <div class="lecture-files">
+        <span>
+          {% if entry['Extras'].size == 0 %} Extras: N/A {% else %} Files: {% for
+          i in entry['Extras'] %} {% assign k = i.first.first %} {% if k %}
+          <a href="{{i[k] | relative_url}}">{{k}}</a>{% if forloop.last == false
+          %},{% endif %} {% else %} {{ i }} {% endif %} {% endfor %} {% endif %}
+        </span>
+      </div>
+
+      <span class="lecture-content-footer">
+        <a href="{{entry['Video']}}">
+          <img
+            src="../assets/images/icons/play_icon.png"
+            alt="Play Lecture Icon"
+          />
+        </a>
+        {{ entry['Date'] }}
+      </span>
+
+      <div class="divider"></div>
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class="lecture-about-container">
+    <div class="about-header">About</div>
+    <p>
+      Kathi Fisler spreads her wisdom and knowledge to help listeners succeed in
+      CS0111.
+    </p>
+    <div class="about-header">Panopto</div>
+    <p>To get access to all the episodes, click the following link:</p>
+    <a href="https://www.panopto.com/" class="link">See All</a>
+  </div>
+</div>

@@ -3,20 +3,11 @@ name: Labs
 cols: ["Lab", "Out", "Additional Materials"]
 contents: [
     {
-      "Lab":
-        [
-          { "Lab 1 (15 students)": "https://hackmd.io/FqFgd6ZjSFCqIsq_cj_PZg" },
-          {
-            "Lab 1 (17/111/112/19 students)": "https://hackmd.io/YE6VxVslSJupUL1bKUsfNg?view",
-          },
-        ],
-      "Out": ["02/01/22"],
-      "Additional Materials":
-        [
-          { "Solution (15)": "assets/labs/lab1-sol.arr" },
-          { "Solution (17)": "assets/labs/lab1-sol.zip" },
-        ],
-    },
+      "Lab": ["Lab 0 (Optional in Person)"],
+      "Out": ["09/07/22"],
+      "Additional Materials": ["setup guide"]
+      },
+	  
     # {
     #   "Lab":
     #     [
