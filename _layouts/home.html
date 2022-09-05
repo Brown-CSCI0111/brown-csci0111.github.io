@@ -76,12 +76,12 @@
                   links summarize our expectations and practices:
               </p>
               <ul>
-                <li>Roles in Learning: Yours and Ours</li>
-                <li>Learning Programming</li>
+                <li><a
+    href="https://hackmd.io/@cs111/learning-f22">Tips on Learning Programming</a></li>
                 <li>Planning and <a href="https://hackmd.io/@cs111/examples-and-tests">Testing</a> Programs</li>
-                <li>Getting Help in Hours</li>
-                <li>The Online Section (S02)</li>
-                <li>Code Clarity Guides</li>
+                <li><a href="https://hackmd.io/@cs111/working-with-staff">Getting Help from Staff</a></li>
+                <li><a href="https://hackmd.io/@cs111/syllabus-f22#remote">The Online/Remote Section (S02)</a></li>
+                <li>Code Clarity Guides (coming soon)</li>
               </ul>
             </div>
           </div>
@@ -96,17 +96,17 @@
       const date = new Date();
       let message;
       if (date.getHours() < 4) {
-        message = 'Hello night owl';
+        message = 'Hello CS111 night owl';
       } else if (date.getHours() < 8) {
-        message = 'Hello early bird';
+        message = 'Hello CS111 early bird';
       } else if (date.getHours() < 12) {
-        message = 'Good morning';
+        message = 'Good morning CS111';
       } else if (date.getHours() < 18) {
-        message = 'Good afternoon';
+        message = 'Good afternoon CS111';
       } else if (date.getHours() < 21) {
-        message = 'Good evening';
+        message = 'Good evening CS111';
       } else {
-        message = 'Good night 😴';
+        message = 'Good night CS111 😴';
       }
       welcomeMessage.innerHTML = message;
     }
