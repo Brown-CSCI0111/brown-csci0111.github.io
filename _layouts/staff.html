@@ -36,16 +36,32 @@
       <span onclick="closeModal(this)" class="modal-close" id="{{ first_name }}"
         >&times;</span
       >
-      <div class="modal-text">
-        <div>{{ page.name }}</div>
-        <div>
-          Top Songs: {% for song in page.top-songs %}
-          <div>{{ song }}</div>
+      <div class="modal-header">
+        <span class="modal-image">
+          {% if page.photo %}
+          <img
+            src="../assets/images/staff/{{page.photo}}"
+            alt="{{page.name}}'s Picture"
+            class="staff-image"
+          />
+          {% else %}
+          <img
+            src="../assets/images/staff/default-icon.webp"
+            alt="{{page.name}}'s Picture"
+            class="staff-image"
+          />
+          {% endif %}
+        </span>
+        <span>
+          <div class="modal-top-songs-header">Top Songs:</div>
+          {% for song in page.top-songs %}
+          <div class="modal-top-songs-content">{{ song }}</div>
           {% endfor %}
-        </div>
-        <div>Hometown: {{ page.hometown }}</div>
-        <div>Bio: {{ page.bio }}</div>
+        </span>
       </div>
+      <br />
+      <div class="modal-hometown">HOMETOWN: {{ page.hometown }}</div>
+      <div class="modal-bio">Bio: {{ page.bio }}</div>
     </div>
   </div>
 </div>
