@@ -1,11 +1,11 @@
 ---
-name: Ryan
-pronouns:
+name: Ryan Simpson
+pronouns: he/him
 role: UTA
 email:
-cs-login:
+cs-login: rsimpso2
 bio:
 hometown:
-photo:
-top-songs: [As It Was, As It Was, As It Was, As It Was, As It Was]
+photo: Ryan.jpeg
+top-songs: [Starships]
 ---

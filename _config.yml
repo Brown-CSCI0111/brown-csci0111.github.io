@@ -60,7 +60,7 @@ header_pages:
   - pages/lectures.md
   - pages/labs.md
   - pages/calendar.md
-  - pages/resources.md
+  # - pages/resources.md
   - pages/staff.md
 
 collections:
