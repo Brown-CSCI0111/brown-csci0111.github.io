@@ -215,7 +215,7 @@ body {
 
 #welcome-message {
   /* top | right | bottom | left */
-  padding: 30px 50px 20px 0px;
+  padding: 15px 50px 20px 0px;
   font-size: 2rem;
   font-weight: bold;
   z-index: 30;
@@ -229,7 +229,7 @@ body {
 }
 
 .course-description-text {
-  text-align: center;
+  text-align: left;
   font-size: 13px;
   padding: 10px;
   color: var(--text-color);
@@ -284,15 +284,19 @@ body {
 }
 
 .home-resources-info {
-  width: 400px;
+  width: 300px;
 }
 
 .home-resources-text {
-  font-size: 18px;
+  font-size: 24px;
+  font-weight: bold;
   padding: 5px 0px;
-  color: #e1dede;
+  color: #fff;
+  text-align: center;
   font-family: var(--font-primary);
+  padding-bottom: 20px;
 }
+
 @media (max-width: 768px) {
   // .home-resources {
   //   flex-wrap: wrap;
@@ -555,6 +559,16 @@ body {
   font-family: var(--font-primary);
 }
 
+.important-dates-container a {
+  color: #2a7ae2;
+  &:visited {
+    color: #2a7ae2;
+  }
+  &:hover {
+    color: grey;
+  }
+}
+
 .anonymous-feedback-form-container {
   display: flex;
   flex-direction: column;
@@ -594,9 +608,9 @@ table {
   }
   td a,
   td li {
-    color: #e1dede;
+    color: #2a7ae2;
     &:visited {
-      color: #e1dede;
+      color: #2a7ae2;
     }
     &:hover {
       color: grey;

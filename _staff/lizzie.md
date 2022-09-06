@@ -1,5 +1,5 @@
 ---
-name: Lizzy
+name: Lizzie Kumar
 pronouns:
 role: Professor
 email:
