@@ -27,13 +27,17 @@
             {{page.banner-header}}
           </div>
           <div class="banner-text-title">
+            {% if page.title == "Lectures" %}
+            {{page.banner-title}}
+            {% else %}
             {{page.title}}
+            {% endif %}
           </div>
           <div class="banner-text-footer">
             {{page.banner-footer}}
           </div>
-
         </div>
+        
         <div class="{{page.title}}-background">
           <div class="content-wrapper">
             {{ content }}
