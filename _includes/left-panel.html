@@ -1,0 +1,62 @@
+<div>
+  {%- assign default_paths = site.pages | map: "path" -%} {%- assign page_paths
+  = site.header_pages | default: default_paths -%} {%- if page_paths -%} {%-
+  assign is_toggled = false -%}
+  <nav class="sidebar">
+    <div class="menu-bar">
+      {%- for path in page_paths -%} {%- assign curr_page = site.pages | where:
+      "path", path | first -%} {%- if curr_page.title -%}
+      <div class="nav-element">
+        <a href="{{ curr_page.url | relative_url }}" class="nav-link">
+          {% if curr_page.title == "Home" %}
+          <img
+            src="../assets/images/icons/{{curr_page.icon}}"
+            alt="{{curr_page.title}}"
+            class="nav-icon"
+            id="home-icon"
+          />
+          {% else %}
+          <img
+            src="../assets/images/icons/{{curr_page.icon}}"
+            alt="{{curr_page.title}}"
+            class="nav-icon"
+          />
+          {% endif %}
+          <span class="nav-text">{{ curr_page.title | escape }}</span>
+        </a>
+      </div>
+      {%- endif -%} {%- endfor -%}
+    </div>
+    <div class="divider"></div>
+    <div class="contact-info-container">
+      <div class="contact-info-header">Contact</div>
+      <div class="contact-info-item">
+        <strong class="name">Kathi Fisler : </strong>
+        <div class="email">kfisler@cs.brown.edu</div>
+      </div>
+      <div class="contact-info-item">
+        <strong class="name">HTAs : </strong>
+        <div class="email">cs0111headtas@cs.brown.edu</div>
+      </div>
+    </div>
+  </nav>
+  {%- endif -%}
+  <div class="sidebar-toggle" onclick="toggle()">
+    <img src="../assets/images/icons/bars_icon.png" alt="Toggle Menu Bars" />
+  </div>
+</div>
+
+<script>
+  let collapsed = true;
+
+  function toggle() {
+    let sidebar = document.querySelector(".sidebar");
+    let toggle = document.querySelector(".sidebar-toggle");
+    if (collapsed) {
+      sidebar.style.display = "block";
+    } else {
+      sidebar.style.display = "none";
+    }
+    collapsed = !collapsed;
+  }
+</script>
