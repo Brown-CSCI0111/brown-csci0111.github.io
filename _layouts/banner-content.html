@@ -5,16 +5,15 @@
   {%- include head.html -%}
 
   <body class="banner-content-layout">
-    {%- include left-panel-nav.html -%}  
+    {%- include left-panel.html -%}  
           
-      <main class="page-container" aria-label="Content">
+      <main class="page-container" aria-label="Content">    
         <div class="banner-container">
           <img
           src="../assets/images/banners/{{page.banner}}"
           alt="{{page.title}}"
           class="banner-img"
           />
-
           <div class="banner-text-header">
             <!-- Include verified icon only for staff page. -->
             {% if page.title == "Staff" %}
@@ -28,26 +27,22 @@
             {{page.banner-header}}
           </div>
           <div class="banner-text-title">
+            {% if page.title == "Lectures" %}
+            {{page.banner-title}}
+            {% else %}
             {{page.title}}
+            {% endif %}
           </div>
           <div class="banner-text-footer">
             {{page.banner-footer}}
           </div>
-
         </div>
+        
         <div class="{{page.title}}-background">
           <div class="content-wrapper">
             {{ content }}
           </div>
         </div>
     </main>
-
-    <!-- Include right panel and footer announcements only for home page. -->
-    <!-- {% if page.title == "Home" %}
-    {%- include right-panel.html -%}
-    {%- include footer-announcement.html -%}
-    {% endif %} -->
-
   </body>
-
 </html>
