@@ -1,11 +1,11 @@
 ---
-name: James
-pronouns:
+name: James Park
+pronouns: he/him
 role: UTA
 email:
-cs-login:
-bio:
-hometown:
-photo:
-top-songs: [As It Was, As It Was, As It Was, As It Was, As It Was]
+cs-login: jpark236
+bio: Hi! I'm James and I'm a senior concentrating in computer science and education studies. I enjoy playing spikeball (when it's actually warm out), minesweeper, and reading anything by Brandon Sanderson. Looking forward to getting to know you all this semester!
+hometown: Ardsley, NY
+photo: James.png
+top-songs: [Starships, Starships, Starships, Starships, Starships]
 ---
