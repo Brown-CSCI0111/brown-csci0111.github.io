@@ -6,6 +6,7 @@ email: kfisler@brown.edu
 cs-login: kfisler
 bio: I've been teaching CS for over 25 years, after a rocky start in my own CS classes. I love jigsaw puzzles, puns, and cooking (and eating!) vegetarian food from around the world.
 hometown: Staten Island, NY
-photo:
-top-songs: [As It Was, As It Was, As It Was, As It Was, As It Was]
+photo: Kathi.jpg
+top-songs:
+[Born to Run, Don't Stop Believing, Viva La Vida, Not Ready to Make Nice, Duelling Banjos]
 ---
