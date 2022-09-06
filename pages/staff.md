@@ -3,7 +3,7 @@ layout: banner-content
 title: Staff
 verified-icon: verified_icon.png
 banner-header: Verified Employees
-banner-footer: CS111 - 32 Members
+banner-footer: CS111 - 34 Members
 icon: staff_icon.png
 banner: staff_banner.png
 permalink: /staff
@@ -19,7 +19,7 @@ permalink: /staff
 
 {% if Profs.size != 0 %}
 
-## Professor & GTA
+<div class="staff-group">Professor & GTA</div>
 
 <div class="staff-container">
   {% for staffer in Profs %}
@@ -33,7 +33,7 @@ permalink: /staff
 
 {% if HTAs.size != 0 %}
 
-## HTA
+<div class="staff-group">HTA</div>
 
 <div class="staff-container">
   {% for staffer in HTAs %}
@@ -47,7 +47,7 @@ permalink: /staff
 
 {% if UTAs.size != 0 %}
 
-## UTA
+<div class="staff-group">UTA</div>
 
 <div class="staff-container">
   {% for staffer in UTAs %}

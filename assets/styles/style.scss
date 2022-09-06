@@ -626,6 +626,13 @@ table {
   gap: 50px;
 }
 
+.staff-group {
+  font-size: 30px;
+  font-weight: bold;
+  padding: 10px 30px;
+  font-family: var(--font-primary);
+}
+
 .staff-card {
   display: flex;
   flex-direction: column;
@@ -860,7 +867,7 @@ table {
   font-weight: bold;
   font-family: var(--font-primary);
   color: #e1dede;
-  padding-top: 20px;
+  padding-top: 15px;
 }
 
 .lecture-title a {
