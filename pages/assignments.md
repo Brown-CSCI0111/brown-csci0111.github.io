@@ -2,7 +2,7 @@
 layout: banner-content
 title: Assignments
 banner-header: Public Playlist
-banner-footer: CS111 - 10 Assignments
+banner-footer: CS111 - 11 Assignments
 icon: assignments_icon.png
 banner: assignments_banner.png
 permalink: /assignments
