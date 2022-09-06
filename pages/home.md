@@ -4,6 +4,6 @@
 
 layout: home
 title: Home
-icon: home_icon.png
+icon: home-icon.png
 permalink: /
 ---
