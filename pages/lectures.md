@@ -2,7 +2,7 @@
 layout: banner-content
 title: Lectures
 banner-header: Podcast
-banner-title: Mornings with Kathi
+banner-title: Lectures
 banner-footer: All Things CS-Related
 icon: lectures_icon.png
 banner: lectures-banner2.jpeg
