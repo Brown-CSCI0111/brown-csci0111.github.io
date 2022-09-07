@@ -9,7 +9,7 @@ contents: [
   "Readings": [{"Textbook 3.1 and 3.2":"https://dcic-world.org/2022-08-28/getting-started.html#%28part._flags-notice-wonder%29"}],
   "Extras":
   [{"The Pyret Programming Environment":"https://code.pyret.org"},
-  {"CS111/150/170 comparison":"lectures/cs111-150-170-contrast.pdf"}]
+  {"CS111/150/170 comparison":"assets/lectures/cs111-150-170-contrast.pdf"}]
 }
 ]
 ---
