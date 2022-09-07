@@ -3,9 +3,10 @@ name: Labs
 cols: ["Lab", "Out", "Additional Materials"]
 contents: [
     {
-      "Lab": ["Lab 0 (Optional in Person)"],
+      "Lab": [{"Lab 0: Software Setup":"https://docs.google.com/document/d/1N6KcnBEJEDRvWTR_zMNDDPAqywpbg8xs1AJIRxgFXck/edit?usp=sharing"}],
       "Out": ["09/07/22"],
-      "Additional Materials": ["setup guide"]
+      "Additional Materials":
+	  ["The TAs will hold optional sessions to help you with this (or you can do it on your own). See the hours calendar or Ed for the times."]
       },
 	  
     # {
