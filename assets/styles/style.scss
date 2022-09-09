@@ -390,9 +390,6 @@ body::-webkit-scrollbar-thumb {
     flex-direction: column;
     justify-content: center;
   }
-  .home-calendar {
-    width: 100%;
-  }
 }
 
 /* ===== BANNER CONTENT LAYOUT ===== */
@@ -525,6 +522,7 @@ body::-webkit-scrollbar-thumb {
 
 .current-assignments-text {
   font-size: 15px;
+  margin-right: 5px;
   color: var(--sidebar-text-color);
   font-family: var(--font-primary);
 }
@@ -763,10 +761,32 @@ table {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  gap: 20px;
 }
 
 .calendar-element {
   padding: 30px;
+}
+
+.calendar-guide-container {
+  padding: 0px 0px;
+  width: 380px;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .home-calendar {
+    width: 100%;
+  }
+  .home-calendar-element {
+    width: 350px;
+  }
+  .calendar-element {
+    padding: 15px 0px;
+  }
+  .calendar-guide-container {
+    width: 300px;
+  }
 }
 
 /* ===== RESOURCES PAGE LAYOUT ===== */
