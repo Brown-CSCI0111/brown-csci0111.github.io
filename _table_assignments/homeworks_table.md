@@ -8,7 +8,7 @@ contents: [
       "In": ["09/11/22"],
       },
 	{
-      "Assignment": [{"Homework 1 (Making Flags)":https://hackmd.io/@cs111/hw1-f22"}],
+      "Assignment": [{"Homework 1 (Making Flags)":"https://hackmd.io/@cs111/hw1-f22"}],
       "Out": ["09/09/22"],
       "In": ["09/13/22"],
     }
