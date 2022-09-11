@@ -7,7 +7,9 @@ contents: [
   "Topic": ["Names, Types, and Organization"],
   "Video": [""],
   "Readings": [{"Textbook 3.6.2, 3.7, 4.2.1 - 4.47":"https://dcic-world.org/2021-08-21/Naming_Values.html"}],
-  "Extras": []
+  "Extras": [{"eyes.txt":"assets/lectures/03/eyes.txt"},
+                 {"ice-cream.txt":"assets/lectures/03/ice-cream.txt"},
+                 {"emoji-handout.pdf":"assets/lectures/03/emoji-code-formatting.pdf"}]
   },
 {
   "Date": ["09/9/22"],
@@ -26,3 +28,20 @@ contents: [
 }
 ]
 ---
+
+{
+"Date": ["09/16/22"],
+"Topic": ["Conditionals and Booleans"],
+"Readings": [{"Textbook 6":"https://dcic-world.org/2022-08-28/Conditionals_and_Booleans.html"}],
+"Extras": []
+},
+{
+"Date": ["09/14/22"],
+"Topic": ["Introduction to Functions"],
+"Video": [""],
+Readings": [{"Textbook 5":"https://dcic-world.org/2022-08-28/From_Repeated_Expressions_to_Functions.html"}],
+"Extras": []
+},
+
+
+

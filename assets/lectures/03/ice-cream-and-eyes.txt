@@ -1,0 +1,46 @@
+# CSCI 0111: Drawing eyes example
+
+# tell Pyret we want to use the image operations/library
+include image
+
+# center the eyeball on the base
+overlay(circle(15, "solid", "blue"),
+  circle(30, "solid", "tan"))
+
+# position the eyeball lower and left on the base
+overlay-xy(circle(15, "solid", "blue"),
+  -25, -25,
+  circle(30, "solid", "tan"))
+
+# we have our left-eye image -- let's name it
+left-eye = overlay-xy(circle(15, "solid", "blue"),
+                   -25, -25,
+                   circle(30, "solid", "tan"))
+
+# put two eyes together
+beside(left-eye, left-eye)
+
+# leverage symmetry to avoid writing second eye from scratch
+beside(left-eye, flip-horizontal(left-eye))
+
+
+
+
+
+
+
+=====================================================
+
+# Ice cream drawing used to explain naming and Run button
+
+include image
+
+SCOOP-SIZE = 15
+
+cone = flip-vertical(triangle(SCOOP-SIZE * 2, "solid", "tan"))
+
+overlay-xy(circle(SCOOP-SIZE, "solid", "pink"),
+  0, 25,
+  overlay-xy(circle(SCOOP-SIZE, "solid", "green"),
+    0, 25,
+    cone))

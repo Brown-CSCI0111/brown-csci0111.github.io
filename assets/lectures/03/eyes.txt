@@ -1,0 +1,19 @@
+# center the eyeball on the base
+overlay(circle(15, "solid", "blue"),
+  circle(30, "solid", "tan"))
+
+# position the eyeball lower and left on the base
+overlay-xy(circle(15, "solid", "blue"),
+  -25, -25,
+  circle(30, "solid", "tan"))
+
+# we have our left-eye image -- let's name it
+left-eye = overlay-xy(circle(15, "solid", "blue"),
+                   -25, -25,
+                   circle(30, "solid", "tan"))
+
+# put two eyes together
+beside(left-eye, left-eye)
+
+# leverage symmetry to avoid writing second eye from scratch
+beside(left-eye, flip-horizontal(left-eye))
