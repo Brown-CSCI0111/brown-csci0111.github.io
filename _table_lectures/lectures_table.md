@@ -3,9 +3,16 @@ name: Lectures
 cols: ["Date", "Topic", "Video", "Readings", "Extras"]
 contents: [
 {
+	"Date": ["09/14/22"],
+	"Topic": ["Introduction to Functions"],
+	"Video": [""],
+	"Readings": [{"Textbook 5":"https://dcic-world.org/2022-08-28/From_Repeated_Expressions_to_Functions.html"}],
+	"Extras": []
+},
+{
   "Date": ["09/12/22"],
   "Topic": ["Names, Types, and Organization"],
-  "Video": [""],
+  "Video": ["https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7836abb4-1e95-4873-92dd-af000150d873"],
   "Readings": [{"Textbook 3.6.2, 3.7, 4.2.1 - 4.47":"https://dcic-world.org/2021-08-21/Naming_Values.html"}],
   "Extras": [{"eyes.txt":"assets/lectures/03/eyes.txt"},
                  {"ice-cream.txt":"assets/lectures/03/ice-cream.txt"},
@@ -33,13 +40,6 @@ contents: [
 "Date": ["09/16/22"],
 "Topic": ["Conditionals and Booleans"],
 "Readings": [{"Textbook 6":"https://dcic-world.org/2022-08-28/Conditionals_and_Booleans.html"}],
-"Extras": []
-},
-{
-"Date": ["09/14/22"],
-"Topic": ["Introduction to Functions"],
-"Video": [""],
-Readings": [{"Textbook 5":"https://dcic-world.org/2022-08-28/From_Repeated_Expressions_to_Functions.html"}],
 "Extras": []
 },
 
