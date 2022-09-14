@@ -3,11 +3,18 @@ name: Lectures
 cols: ["Date", "Topic", "Video", "Readings", "Extras"]
 contents: [
 {
+"Date": ["09/16/22"],
+"Topic": ["Conditionals and Booleans"],
+"Video": [],
+"Readings": [{"Textbook 6":"https://dcic-world.org/2022-08-28/Conditionals_and_Booleans.html"}],
+"Extras": []
+},
+{
 	"Date": ["09/14/22"],
 	"Topic": ["Introduction to Functions"],
-	"Video": [""],
+	"Video": ["https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4521b012-41a3-47c8-8a24-af000150d89f"],
 	"Readings": [{"Textbook 5":"https://dcic-world.org/2022-08-28/From_Repeated_Expressions_to_Functions.html"}],
-	"Extras": []
+	"Extras": [{"Drill 1":"https://www.gradescope.com/courses/423395/assignments/2206476"}]
 },
 {
   "Date": ["09/12/22"],
@@ -35,13 +42,6 @@ contents: [
 }
 ]
 ---
-
-{
-"Date": ["09/16/22"],
-"Topic": ["Conditionals and Booleans"],
-"Readings": [{"Textbook 6":"https://dcic-world.org/2022-08-28/Conditionals_and_Booleans.html"}],
-"Extras": []
-},
 
 
 
