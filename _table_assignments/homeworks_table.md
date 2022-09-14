@@ -13,7 +13,7 @@ contents: [
       "In": ["09/13/22"],
       },
 	  {
-      "Assignment": [{"Homework 2 (Exploring Ads)":"https://hackmd.io/@cs111/h21-f22"}],
+      "Assignment": [{"Homework 2 (Exploring Ads)":"https://hackmd.io/@cs111/hw2-f22"}],
       "Out": ["09/14/22"],
       "In": ["09/20/22"],
     }
