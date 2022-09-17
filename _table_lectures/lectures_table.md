@@ -3,11 +3,18 @@ name: Lectures
 cols: ["Date", "Topic", "Video", "Readings", "Extras"]
 contents: [
 {
-"Date": ["09/16/22"],
-"Topic": ["Conditionals and Booleans"],
-"Video": [],
-"Readings": [{"Textbook 6":"https://dcic-world.org/2022-08-28/Conditionals_and_Booleans.html"}],
-"Extras": []
+	"Date": ["09/19/22"],
+    "Topic": ["Conditionals and Booleans"],
+	"Video": [],
+	"Readings": [{"Textbook 6.6-6.7":"https://dcic-world.org/2022-08-28/Conditionals_and_Booleans.html"}],
+	"Extras":[]
+},
+{
+	"Date": ["09/16/22"],
+    "Topic": ["Conditionals and Booleans"],
+	"Video": ["https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=bea904b5-8971-4b8c-9207-af000150d8bf"],
+	"Readings": [{"Textbook 6.1-6.5":"https://dcic-world.org/2022-08-28/Conditionals_and_Booleans.html"}],
+	"Extras":[{"Drill 2":"https://www.gradescope.com/courses/423395/assignments/2206522"}]
 },
 {
 	"Date": ["09/14/22"],
@@ -45,3 +52,18 @@ contents: [
 
 
 
+{
+	"Date": ["09/21/22"],
+    "Topic": ["Helper Functions and Tasks"],
+	"Video": [],
+	"Readings": ["nothing new"],
+	"Extras":[]
+	},
+
+{
+	"Date": ["09/23/22"],
+    "Topic": ["Introduction to Tables"],
+	"Video": [],
+	"Readings": [{"Textbook 7.1-7.3":"https://dcic-world.org/2022-08-28/intro-tabular-data.html"}],
+	"Extras":[]
+},
