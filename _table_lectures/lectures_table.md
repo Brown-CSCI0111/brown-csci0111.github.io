@@ -4,10 +4,10 @@ cols: ["Date", "Topic", "Video", "Readings", "Extras"]
 contents: [
 {
 	"Date": ["09/19/22"],
-    "Topic": ["Conditionals and Booleans"],
+    "Topic": ["Recap; Helper Functions and Tasks"],
 	"Video": [],
 	"Readings": [{"Textbook 6.6-6.7":"https://dcic-world.org/2022-08-28/Conditionals_and_Booleans.html"}],
-	"Extras":[]
+	"Extras":[{"Handout":"assets/lectures/06/conditionals-helpers-handout.pdf"}]
 },
 {
 	"Date": ["09/16/22"],
