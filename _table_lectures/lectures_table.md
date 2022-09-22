@@ -3,11 +3,18 @@ name: Lectures
 cols: ["Date", "Topic", "Video", "Readings", "Extras"]
 contents: [
 {
-	"Date": ["09/19/22"],
-    "Topic": ["Conditionals and Booleans"],
+	"Date": ["09/21/22"],
+    "Topic": ["Helper Functions and Planning Tasks"],
 	"Video": [],
-	"Readings": [{"Textbook 6.6-6.7":"https://dcic-world.org/2022-08-28/Conditionals_and_Booleans.html"}],
+	"Readings": ["nothing new"],
 	"Extras":[]
+	},
+{
+	"Date": ["09/19/22"],
+    "Topic": ["Recap; Helper Functions and Tasks"],
+	"Video": ["https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=828cffe6-f5a1-4de2-b065-af000150d8e9"],
+	"Readings": [{"Textbook 6.6-6.7":"https://dcic-world.org/2022-08-28/Conditionals_and_Booleans.html"}],
+	"Extras":[{"Handout":"assets/lectures/06/conditionals-helpers-handout.pdf"}]
 },
 {
 	"Date": ["09/16/22"],
@@ -51,14 +58,6 @@ contents: [
 ---
 
 
-
-{
-	"Date": ["09/21/22"],
-    "Topic": ["Helper Functions and Tasks"],
-	"Video": [],
-	"Readings": ["nothing new"],
-	"Extras":[]
-	},
 
 {
 	"Date": ["09/23/22"],
