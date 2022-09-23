@@ -7,14 +7,14 @@ contents: [
     "Topic": ["Introduction to Tables"],
 	"Video": ["https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=40084421-0f6a-43a8-a33c-af000150d93d"],
 	"Readings": [{"Textbook 7.1-7.3":"https://dcic-world.org/2022-08-28/intro-tabular-data.html"}],
-	"Extras": [{"Handout":"assets/lectures/07/binge-plans.pdf"}, {"Drill 4": "https://www.gradescope.com/courses/423395/assignments/2206516" ]
+	"Extras": [{"Handout":"assets/lectures/07/binge-plans.pdf"}, {"Drill 4": "https://www.gradescope.com/courses/423395/assignments/2206516"}]
 },
 {
 	"Date": ["09/21/22"],
     "Topic": ["Helper Functions and Planning Tasks"],
 	"Video": ["https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0a3db58f-a324-49cc-aa0f-af000150d90e"],
 	"Readings": ["nothing new"],
-	"Extras":[{"Drill 3": "https://www.gradescope.com/courses/423395/assignments/2206520" }]
+	"Extras":[{"Drill 3": "https://www.gradescope.com/courses/423395/assignments/2206520"}]
 	},
 {
 	"Date": ["09/19/22"],
