@@ -3,6 +3,13 @@ name: Lectures
 cols: ["Date", "Topic", "Video", "Readings", "Extras"]
 contents: [
 {
+	"Date": ["09/23/22"],
+    "Topic": ["Introduction to Tables"],
+	"Video": [],
+	"Readings": [{"Textbook 7.1-7.3":"https://dcic-world.org/2022-08-28/intro-tabular-data.html"}],
+	"Extras": [{"Handout":"assets/lectures/07/binge-plans.pdf"}]
+},
+{
 	"Date": ["09/21/22"],
     "Topic": ["Helper Functions and Planning Tasks"],
 	"Video": [],
@@ -59,10 +66,4 @@ contents: [
 
 
 
-{
-	"Date": ["09/23/22"],
-    "Topic": ["Introduction to Tables"],
-	"Video": [],
-	"Readings": [{"Textbook 7.1-7.3":"https://dcic-world.org/2022-08-28/intro-tabular-data.html"}],
-	"Extras":[]
-},
+
