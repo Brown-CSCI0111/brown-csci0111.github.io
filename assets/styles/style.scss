@@ -339,6 +339,9 @@ body::-webkit-scrollbar-thumb {
   .home-calendar {
     height: 350px;
   }
+  .home-quick-links-element {
+    flex-basis: 100%;
+  }
 }
 @media (max-width: 768px) {
   #home-page-grid {
