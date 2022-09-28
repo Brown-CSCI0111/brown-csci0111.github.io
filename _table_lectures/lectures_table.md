@@ -7,7 +7,7 @@ contents: [
     "Topic": ["Planning for Tables, Functions that Return Tables"],
 	"Video": [],
 	"Readings": [],
-	"Extras": [{"planning setup": "https://snap.berkeley.edu/snap/snap.html#present:Username=kfisler&ProjectName=table-plans-lecture"},
+	"Extras": [{"to-do list form": "https://docs.google.com/forms/d/e/1FAIpQLSeLJC6aa1ryJWgZXbR7P1dp2hs5g-yiefX8AFLFpionb9ysRg/viewform?usp=sf_link"},{"planning setup": "https://snap.berkeley.edu/snap/snap.html#present:Username=kfisler&ProjectName=table-plans-lecture"},
 	{"Drill 5": "https://www.gradescope.com/courses/423395/assignments/2206515"}]
 }, {
 	"Date": ["09/26/22"],
