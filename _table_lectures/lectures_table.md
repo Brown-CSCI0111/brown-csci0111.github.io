@@ -3,6 +3,19 @@ name: Lectures
 cols: ["Date", "Topic", "Video", "Readings", "Extras"]
 contents: [
 {
+	"Date": ["09/28/22"],
+    "Topic": ["Planning for Tables, Functions that Return Tables"],
+	"Video": [],
+	"Readings": [],
+	"Extras": [{"Drill 5": "https://www.gradescope.com/courses/423395/assignments/2206515"}]
+}, {
+	"Date": ["09/26/22"],
+    "Topic": ["Manipulating and Plotting Tables"],
+	"Video": ["https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9b75127a-f7e1-41be-8901-af000150d971"],
+	"Readings": [{"Textbook 7.4":"https://dcic-world.org/2022-08-28/intro-tabular-data.html#%28part._.Processing_.Rows%29"}],
+	"Extras": []
+},
+{
 	"Date": ["09/23/22"],
     "Topic": ["Introduction to Tables"],
 	"Video": ["https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=40084421-0f6a-43a8-a33c-af000150d93d"],
