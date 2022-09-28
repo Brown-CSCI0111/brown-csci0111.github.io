@@ -7,7 +7,8 @@ contents: [
     "Topic": ["Planning for Tables, Functions that Return Tables"],
 	"Video": [],
 	"Readings": [],
-	"Extras": [{"Drill 5": "https://www.gradescope.com/courses/423395/assignments/2206515"}]
+	"Extras": [{"planning setup": "https://snap.berkeley.edu/snap/snap.html#present:Username=kfisler&ProjectName=table-plans-lecture"},
+	{"Drill 5": "https://www.gradescope.com/courses/423395/assignments/2206515"}]
 }, {
 	"Date": ["09/26/22"],
     "Topic": ["Manipulating and Plotting Tables"],
