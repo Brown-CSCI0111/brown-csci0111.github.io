@@ -33,6 +33,13 @@ contents:
             "Lab 2: Reactors / Animations": "https://hackmd.io/@cs111/lab2-f22",
           },
         ],
+      "Out": ["09/21/22"],
+      "Additional Materials": [],
+    },
+    {
+      "Lab": [{ "Lab 3: Tables": "https://hackmd.io/@cs111/lab3-f22" }],
+      "Out": ["09/28/22"],
+      "Additional Materials": [],
     },
   ]
 ---
