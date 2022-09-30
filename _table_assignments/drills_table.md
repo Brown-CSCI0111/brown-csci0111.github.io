@@ -26,6 +26,11 @@ contents: [
 		"Drill": [{ "Drill 5": "https://www.gradescope.com/courses/423395/assignments/2206515" }],
 		"Out": ["09/28/22"],
 		"In": ["09/30/22"]
+	},
+	{
+		"Drill": [{ "Drill 6": "https://www.gradescope.com/courses/423395/assignments/2206481" }],
+		"Out": ["09/30/22"],
+		"In": ["10/03/22"]
 	}
 	]
 ---
