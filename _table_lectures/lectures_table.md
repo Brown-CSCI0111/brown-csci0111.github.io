@@ -6,15 +6,16 @@ contents: [
 {
 	"Date": ["09/30/22"],
     "Topic": ["Functions over Tables, Testing Tables"],
-	"Video": [],
+	"Video": ["https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=63732dda-95fe-476b-acb2-af000150d9d8"],
 	"Readings": [],
 	"Extras": [{"handout": "https://code.pyret.org/editor#share=1DT9GsAf1voYH8U0FsRtS71Xr0u4Go2gs&v=31c9aaf"},
-	{"Drill 6": "https://www.gradescope.com/courses/423395/assignments/2206481"}]
+	{"Drill 6": "https://www.gradescope.com/courses/423395/assignments/2206481"},
+	{"Functions in functions":"assets/lectures/funs-within-funs.pptx"}]
 }, 
 {
 	"Date": ["09/28/22"],
     "Topic": ["Planning for Tables, Functions that Return Tables"],
-	"Video": [],
+	"Video": ["https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8a5c03dd-f7f7-44ff-9eab-af000150d9a4"],
 	"Readings": [],
 	"Extras": [{"to-do list form": "https://docs.google.com/forms/d/e/1FAIpQLSeLJC6aa1ryJWgZXbR7P1dp2hs5g-yiefX8AFLFpionb9ysRg/viewform?usp=sf_link"},{"planning setup": "https://snap.berkeley.edu/snap/snap.html#present:Username=kfisler&ProjectName=table-plans-lecture"},
 	{"Drill 5": "https://www.gradescope.com/courses/423395/assignments/2206515"}]
