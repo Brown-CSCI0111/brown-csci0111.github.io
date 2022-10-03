@@ -4,8 +4,22 @@ cols: ["Date", "Topic", "Video", "Readings", "Extras"]
 
 contents: [
 {
+    "Date": ["10/05/22"],
+    "Topic": ["Cleaning Data and Data Errors"],
+	"Video": [],
+	"Readings": [{"Textbook 8.1 and 8.3": "https://dcic-world.org/2022-08-28/processing-tables.html#%28part._cleaning-tables%29"}}],
+	"Extras": []
+}, 
+{
+	"Date": ["10/03/22"],
+    "Topic": ["Testing Tables; Functions within Functions"],
+	"Video": ["https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0e1ca0ad-e743-4cee-9c39-af000150da02"],
+	"Readings": [],
+	"Extras": []
+}, 
+{
 	"Date": ["09/30/22"],
-    "Topic": ["Functions over Tables, Testing Tables"],
+    "Topic": ["Functions over Tables"],
 	"Video": ["https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=63732dda-95fe-476b-acb2-af000150d9d8"],
 	"Readings": [],
 	"Extras": [{"handout": "https://code.pyret.org/editor#share=1DT9GsAf1voYH8U0FsRtS71Xr0u4Go2gs&v=31c9aaf"},
