@@ -7,7 +7,7 @@ contents: [
     "Date": ["10/05/22"],
     "Topic": ["Cleaning Data and Data Errors"],
 	"Video": [],
-	"Readings": [{"Textbook 8.1 and 8.3": "https://dcic-world.org/2022-08-28/processing-tables.html#%28part._cleaning-tables%29"}}],
+	"Readings": [{"Textbook 8.1 and 8.3": "https://dcic-world.org/2022-08-28/processing-tables.html#%28part._cleaning-tables%29"}],
 	"Extras": []
 }, 
 {
