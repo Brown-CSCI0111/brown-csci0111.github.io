@@ -41,5 +41,15 @@ contents:
       "Out": ["09/28/22"],
       "Additional Materials": [],
     },
+    {
+      "Lab":
+        [
+          {
+            "Lab 4: Generating and Reporting About Data": "https://hackmd.io/@cs111/lab4-f22",
+          },
+        ],
+      "Out": ["10/4/22"],
+      "Additional Materials": [],
+    },
   ]
 ---
