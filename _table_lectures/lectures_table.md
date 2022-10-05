@@ -6,7 +6,7 @@ contents: [
 {
     "Date": ["10/05/22"],
     "Topic": ["Cleaning Data and Data Errors"],
-	"Video": [],
+	"Video": ["https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=cdf508d3-a312-4d53-b786-ada201141457"],
 	"Readings": [{"Textbook 8.1 and 8.3": "https://dcic-world.org/2022-08-28/processing-tables.html#%28part._cleaning-tables%29"}],
 	"Extras": [{"handout PDF":"assets/lectures/13/table-errors-handout.pdf"},{"starter code":"https://code.pyret.org/editor#share=1htaRhSw69NDx2NUg03a1wlsaaXAUxb__&v=31c9aaf"}]
 }, 
