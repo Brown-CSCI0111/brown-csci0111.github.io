@@ -9,6 +9,40 @@ banner: staff_banner.png
 permalink: /staff
 ---
 
+<!-- {% assign EdStar = "Aidan" %}
+{% assign EdStarPhoto = "Aidan.jpg" %}
+
+<div class="staff-video">
+  <div class="featured-artist-container">
+    <div class="featured-artist-header">
+      New music from the artists you follow
+    </div>
+    <div class="featured-artist-card">
+      <div class="featured-artist-image-container">
+        <img src="../assets/images/staff/{{ EdStarPhoto}}" />
+      </div>
+      <div class="featured-artist-text-container">
+        <h1> {{ EdStar }} </h1>
+        <p> I'm the EdStar of the Week! </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==== -->
+
+   <!-- <div>
+    <div class="suggested-video-header">
+      Suggested for you
+    </div>
+    <iframe width="320" height="200" controls muted>
+      <source src="https://youtu.be/Hw6bnyakAaM">
+      Your browser does not support the video tag.
+    </iframe>
+  </div>
+</div> -->
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Hw6bnyakAaM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="youtube-video"></iframe>
+
 <!-- Assignments -->
 
 {% assign Profs = site.staff | where: 'role', 'Professor' %}
