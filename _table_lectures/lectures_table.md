@@ -4,6 +4,13 @@ cols: ["Date", "Topic", "Video", "Readings", "Extras"]
 
 contents: [
 {
+    "Date": ["10/07/22"],
+    "Topic": ["Review and Practice on Working with Tables"],
+	"Video": [],
+	"Readings": [],
+	"Extras": [{"starter code":"https://code.pyret.org/editor#share=1VEsL-5DfjRILKhDZrpH342d-Zy7HFD2t&v=31c9aaf"}]
+}, 
+{
     "Date": ["10/05/22"],
     "Topic": ["Cleaning Data and Data Errors"],
 	"Video": ["https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=cdf508d3-a312-4d53-b786-ada201141457"],
