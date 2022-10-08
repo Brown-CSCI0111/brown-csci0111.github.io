@@ -6,7 +6,7 @@ contents: [
 {
     "Date": ["10/07/22"],
     "Topic": ["Review and Practice on Working with Tables"],
-	"Video": [],
+	"Video": ["https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6a728150-5c38-452c-a578-af000150da54"],
 	"Readings": [],
 	"Extras": [{"starter code":"https://code.pyret.org/editor#share=1VEsL-5DfjRILKhDZrpH342d-Zy7HFD2t&v=31c9aaf"}]
 }, 
