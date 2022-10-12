@@ -4,6 +4,27 @@ cols: ["Date", "Topic", "Video", "Readings", "Extras"]
 
 contents: [
 {
+    "Date": ["10/14/22"],
+    "Topic": ["Processing and Aggregating Lists (Video Only)"],
+    "Video": ["https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5eda342a-03d1-432a-b4ca-ada2011414f8"],
+    "Readings": [{"Textbook 10.1 - 10.4" : "https://dcic-world.org/2022-08-28/processing-lists.html"}],
+    "Extras": []
+}, 
+{
+    "Date": ["10/12/22"],
+    "Topic": ["Lists and List Operators"],
+    "Video": [],
+    "Readings": [{"Textbook 9.1 - 9.4.3, 9.5" : "https://dcic-world.org/2022-08-28/tables-to-lists.html"}],
+    "Extras": []
+}, 
+{
+    "Date": ["10/10/22"],
+    "Topic": ["No Class (University Holiday)"],
+    "Video": [],
+    "Readings": [],
+    "Extras": []
+}, 
+{
     "Date": ["10/07/22"],
     "Topic": ["Review and Practice on Working with Tables"],
 	"Video": ["https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6a728150-5c38-452c-a578-af000150da54"],
