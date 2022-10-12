@@ -15,7 +15,7 @@ contents: [
     "Topic": ["Lists and List Operators"],
     "Video": [],
     "Readings": [{"Textbook 9.1 - 9.4.3, 9.5" : "https://dcic-world.org/2022-08-28/tables-to-lists.html"}],
-    "Extras": []
+    "Extras": [{"starter code":"https://code.pyret.org/editor#share=1dab8zlrPIPBydlSTZxRPuJKI583a9mEb&v=31c9aaf"}]
 }, 
 {
     "Date": ["10/10/22"],
