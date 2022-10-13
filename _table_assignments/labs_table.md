@@ -51,5 +51,11 @@ contents:
       "Out": ["10/4/22"],
       "Additional Materials": [],
     },
+    {
+      "Lab":
+        [{ "Lab 5: Maps & More Maps": "https://hackmd.io/@cs111/lab5-f22" }],
+      "Out": ["10/13/22"],
+      "Additional Materials": [],
+    },
   ]
 ---
