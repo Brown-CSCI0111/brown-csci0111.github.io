@@ -13,7 +13,7 @@ contents: [
 {
     "Date": ["10/12/22"],
     "Topic": ["Lists and List Operators"],
-    "Video": [],
+    "Video": ["https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=54baa0a3-7e1c-433b-8c4f-af000150dab7"],
     "Readings": [{"Textbook 9.1 - 9.4.3, 9.5" : "https://dcic-world.org/2022-08-28/tables-to-lists.html"}],
     "Extras": [{"starter code":"https://code.pyret.org/editor#share=1dab8zlrPIPBydlSTZxRPuJKI583a9mEb&v=31c9aaf"}]
 }, 
