@@ -4,6 +4,13 @@ cols: ["Date", "Topic", "Video", "Readings", "Extras"]
 
 contents: [
 {
+    "Date": ["10/17/22"],
+    "Topic": ["The Pattern of List Functions (Design Recipe)"],
+    "Video": [],
+    "Readings": [{"Textbook 10.1 - 10.4" : "https://dcic-world.org/2022-08-28/processing-lists.html"}],
+    "Extras": [{"starter code" : "https://code.pyret.org/editor#share=1BfyOBoD3_Sei57_OfO5DCgdDs_NthMYf&v=22f3b65"},{"code PDF (to write on)" : "assets/lectures/18/code-samples-f22.pdf"}]
+}, 
+{
     "Date": ["10/14/22"],
     "Topic": ["Processing and Aggregating Lists (Video Only)"],
     "Video": ["https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5eda342a-03d1-432a-b4ca-ada2011414f8"],
