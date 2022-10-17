@@ -3,7 +3,7 @@ name: Projects
 cols: ["Project", "Out", "In", "Additional Resources"]
 contents: [
     {
-      "Project": ["Multi-Table Data Analysis (Pair Project)"],
+      "Project": [{"Grocery Store Analysis":"https://hackmd.io/@cs111/proj1-f22"}],
       "Out": ["10/5/22"],
       "In": ["10/18/22"],
       "Additional Resources": []

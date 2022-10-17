@@ -4,9 +4,38 @@ cols: ["Date", "Topic", "Video", "Readings", "Extras"]
 
 contents: [
 {
+    "Date": ["10/14/22"],
+    "Topic": ["Processing and Aggregating Lists (Video Only)"],
+    "Video": ["https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5eda342a-03d1-432a-b4ca-ada2011414f8"],
+    "Readings": [{"Textbook 10.1 - 10.4" : "https://dcic-world.org/2022-08-28/processing-lists.html"}],
+    "Extras": []
+}, 
+{
+    "Date": ["10/12/22"],
+    "Topic": ["Lists and List Operators"],
+    "Video": ["https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=54baa0a3-7e1c-433b-8c4f-af000150dab7"],
+    "Readings": [{"Textbook 9.1 - 9.4.3, 9.5" : "https://dcic-world.org/2022-08-28/tables-to-lists.html"}],
+    "Extras": [{"starter code":"https://code.pyret.org/editor#share=1dab8zlrPIPBydlSTZxRPuJKI583a9mEb&v=31c9aaf"}]
+}, 
+{
+    "Date": ["10/10/22"],
+    "Topic": ["No Class (University Holiday)"],
+    "Video": [],
+    "Readings": [],
+    "Extras": []
+}, 
+{
+    "Date": ["10/07/22"],
+    "Topic": ["Review and Practice on Working with Tables"],
+	"Video": ["https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6a728150-5c38-452c-a578-af000150da54"],
+	"Readings": [],
+	"Extras": [{"starter code":"https://code.pyret.org/editor#share=1VEsL-5DfjRILKhDZrpH342d-Zy7HFD2t&v=31c9aaf"},
+	{"solution to class exercises" : "https://code.pyret.org/editor#share=19VPPxXivVscymUpg_dC-EKxZfuETPEci&v=31c9aaf"}]
+}, 
+{
     "Date": ["10/05/22"],
     "Topic": ["Cleaning Data and Data Errors"],
-	"Video": [],
+	"Video": ["https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=cdf508d3-a312-4d53-b786-ada201141457"],
 	"Readings": [{"Textbook 8.1 and 8.3": "https://dcic-world.org/2022-08-28/processing-tables.html#%28part._cleaning-tables%29"}],
 	"Extras": [{"handout PDF":"assets/lectures/13/table-errors-handout.pdf"},{"starter code":"https://code.pyret.org/editor#share=1htaRhSw69NDx2NUg03a1wlsaaXAUxb__&v=31c9aaf"}]
 }, 

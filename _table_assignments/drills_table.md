@@ -31,6 +31,26 @@ contents: [
 		"Drill": [{ "Drill 6": "https://www.gradescope.com/courses/423395/assignments/2206481" }],
 		"Out": ["09/30/22"],
 		"In": ["10/03/22"]
+	},
+	{
+		"Drill": [{ "No drill due Oct 7": "" }],
+		"Out": ["10/05/22"],
+		"In": ["10/07/22"]
+	},
+	{
+		"Drill": [{ "No drill due Oct 12": "" }],
+		"Out": ["10/07/22"],
+		"In": ["10/12/22"]
+	},
+	{
+	        "Drill": [{ "Drill 7": "https://www.gradescope.com/courses/423395/assignments/2206512" }],
+		"Out": ["10/12/22"],
+		"In": ["10/14/22"]
+	},
+	{
+	        "Drill": [{ "Drill 8": "https://www.gradescope.com/courses/423395/assignments/2206511" }],
+		"Out": ["10/14/22"],
+		"In": ["10/17/22"]
 	}
 	]
 ---
