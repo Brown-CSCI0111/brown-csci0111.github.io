@@ -6,9 +6,9 @@ contents: [
 {
     "Date": ["10/19/22"],
     "Topic": ["Function Diagrams; Intro to Datatypes"],
-    "Video": [],
+    "Video": ["https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=1783c3bf-7040-43d3-a88f-af000150db35"],
     "Readings": [{"Textbook 11.1 - 11.2.2" : "https://dcic-world.org/2022-08-28/intro-struct-data.html"}],
-    "Extras": []
+    "Extras": [{"Function call diagrams":"assets/lectures/19/function-call-diagrams-f22.pdf"}, {"Email table design notes":"https://cs.brown.edu/courses/csci0111/spring2020/lectures/datatypes-intro.html"}]
 },
 {
     "Date": ["10/17/22"],
