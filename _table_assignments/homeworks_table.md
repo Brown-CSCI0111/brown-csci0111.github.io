@@ -26,7 +26,13 @@ contents: [
       "Assignment": [{"Homework 4 (Data Analysis and Planning)" : "https://hackmd.io/@cs111/hw4-f22"}],
       "Out": ["09/28/22"],
       "In": ["10/4/22"]
+    },
+    	 {
+      "Assignment": [{"Homework 5 (Much Ado about Lists)" : "https://hackmd.io/@cs111/hw5-f22"}],
+      "Out": ["10/19/22"],
+      "In": ["10/25/22"]
     }
+   
   ]
 ---
 
