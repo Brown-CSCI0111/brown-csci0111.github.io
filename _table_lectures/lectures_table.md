@@ -4,6 +4,13 @@ cols: ["Date", "Topic", "Video", "Readings", "Extras"]
 
 contents: [
 {
+    "Date": ["10/19/22"],
+    "Topic": ["Function Diagrams; Intro to Datatypes"],
+    "Video": [],
+    "Readings": [{"Textbook 11.1 - 11.2.2" : "https://dcic-world.org/2022-08-28/intro-struct-data.html"}],
+    "Extras": []
+},
+{
     "Date": ["10/17/22"],
     "Topic": ["The Pattern of List Functions (Design Recipe)"],
     "Video": ["https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9f7b3365-cdcf-46f0-820d-af000150db0d"],
