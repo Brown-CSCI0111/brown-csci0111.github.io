@@ -57,5 +57,15 @@ contents:
       "Out": ["10/13/22"],
       "Additional Materials": [],
     },
+    {
+      "Lab":
+        [
+          {
+            "Lab 6: Understanding Recursion": "https://hackmd.io/@cs111/lab6-f22",
+          },
+        ],
+      "Out": ["10/13/22"],
+      "Additional Materials": [],
+    },
   ]
 ---
