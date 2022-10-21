@@ -4,11 +4,18 @@ cols: ["Date", "Topic", "Video", "Readings", "Extras"]
 
 contents: [
 {
-    "Date": ["10/21/22"],
-    "Topic": ["Datatypes and Animations"],
+    "Date": ["10/24/22"],
+    "Topic": ["GameStates and Reactors"],
     "Video": [],
     "Readings": [],
-    "Extras": [{"starter code (or continue from last time)"}, {"https://code.pyret.org/editor#share=1pBUbDYX3BuvjJvW5FlPWcopuNZZ866aF&v=22f3b65"}]
+    "Extras": []
+},{
+    "Date": ["10/21/22"],
+    "Topic": ["Datatypes and Animations"],
+    "Video": ["https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6121696a-2a71-461f-bb50-af000150db5a"],
+    "Readings": [{"Textbook 11.3" : "https://dcic-world.org/2022-08-28/intro-struct-data.html"}],
+    "Extras": [{"starter code (or continue from last time)", "https://code.pyret.org/editor#share=1pBUbDYX3BuvjJvW5FlPWcopuNZZ866aF&v=22f3b65"},
+    {"Code file from class":"https://code.pyret.org/editor#share=1rqYhhPPV_HYdaOUOGYqDIgYAJTJfHUAs&v=22f3b65"}]
 },
 {
     "Date": ["10/19/22"],
