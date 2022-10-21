@@ -4,6 +4,13 @@ cols: ["Date", "Topic", "Video", "Readings", "Extras"]
 
 contents: [
 {
+    "Date": ["10/21/22"],
+    "Topic": ["Datatypes and Animations"],
+    "Video": [],
+    "Readings": [],
+    "Extras": [{"starter code (or continue from last time)"}, {"https://code.pyret.org/editor#share=1pBUbDYX3BuvjJvW5FlPWcopuNZZ866aF&v=22f3b65"}]
+},
+{
     "Date": ["10/19/22"],
     "Topic": ["Function Diagrams; Intro to Datatypes"],
     "Video": ["https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=1783c3bf-7040-43d3-a88f-af000150db35"],
