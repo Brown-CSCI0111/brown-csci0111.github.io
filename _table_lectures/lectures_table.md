@@ -4,12 +4,20 @@ cols: ["Date", "Topic", "Video", "Readings", "Extras"]
 
 contents: [
 {
-    "Date": ["10/24/22"],
-    "Topic": ["GameStates and Reactors"],
+    "Date": ["10/26/22"],
+    "Topic": ["Interactive Games; Tables vs Lists"],
     "Video": [],
     "Readings": [],
-    "Extras": [{"starter code":"https://code.pyret.org/editor#share=1Ef9W_TSE_EyNh9ZsEMFR3ypMvRBa6acn&v=22f3b65"}]
-},{
+    "Extras": [{"start from Wednesday Code":"https://code.pyret.org/editor#share=18lM2RGh4Cy4qT-uGJxKjekdypiz1Fa5L&v=22f3b65"}]
+},
+{
+    "Date": ["10/24/22"],
+    "Topic": ["GameStates and Reactors"],
+    "Video": ["https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6121696a-2a71-461f-bb50-af000150db5a"],
+    "Readings": [],
+    "Extras": [{"starter code":"https://code.pyret.org/editor#share=1Ef9W_TSE_EyNh9ZsEMFR3ypMvRBa6acn&v=22f3b65"},{"final class code":"https://code.pyret.org/editor#share=18lM2RGh4Cy4qT-uGJxKjekdypiz1Fa5L&v=22f3b65"}]
+},
+{
     "Date": ["10/21/22"],
     "Topic": ["Datatypes and Animations"],
     "Video": ["https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6121696a-2a71-461f-bb50-af000150db5a"],
