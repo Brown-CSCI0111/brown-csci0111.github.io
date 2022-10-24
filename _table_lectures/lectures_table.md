@@ -8,7 +8,7 @@ contents: [
     "Topic": ["GameStates and Reactors"],
     "Video": [],
     "Readings": [],
-    "Extras": []
+    "Extras": [{"starter code":"https://code.pyret.org/editor#share=1Ef9W_TSE_EyNh9ZsEMFR3ypMvRBa6acn&v=22f3b65"}]
 },{
     "Date": ["10/21/22"],
     "Topic": ["Datatypes and Animations"],
