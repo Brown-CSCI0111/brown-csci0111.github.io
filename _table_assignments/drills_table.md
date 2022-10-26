@@ -61,6 +61,11 @@ contents: [
 		"Drill": [{ "No drill due Oct 24": "" }],
 		"Out": ["10/21/22"],
 		"In": ["10/24/22"]
+	},
+	{
+		"Drill": [{ "No drill due Oct 28": "" }],
+		"Out": ["10/26/22"],
+		"In": ["10/28/22"]
 	}
 	]
 ---
