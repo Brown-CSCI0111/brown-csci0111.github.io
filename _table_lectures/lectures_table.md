@@ -4,9 +4,16 @@ cols: ["Date", "Topic", "Video", "Readings", "Extras"]
 
 contents: [
 {
+    "Date": ["10/28/22"],
+    "Topic": ["Datatypes for Medical History"],
+    "Video": [],
+    "Readings": [{"Textbook 14.1" : "https://dcic-world.org/2022-08-28/trees.html"}],
+    "Extras": []
+},
+{
     "Date": ["10/26/22"],
     "Topic": ["Interactive Games; Tables vs Lists"],
-    "Video": [],
+    "Video": ["https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=cf5375ef-7db1-43ff-bfa1-af000150dba3"],
     "Readings": [],
     "Extras": [{"start from Wednesday Code":"https://code.pyret.org/editor#share=18lM2RGh4Cy4qT-uGJxKjekdypiz1Fa5L&v=22f3b65"}]
 },
