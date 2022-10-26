@@ -67,5 +67,15 @@ contents:
       "Out": ["10/20/22"],
       "Additional Materials": [],
     },
+    {
+      "Lab":
+        [
+          {
+            "Lab 7: Datatypes and Types of Data": "https://hackmd.io/@cs111/lab7-f22",
+          },
+        ],
+      "Out": ["10/27/22"],
+      "Additional Materials": [],
+    }
   ]
 ---
