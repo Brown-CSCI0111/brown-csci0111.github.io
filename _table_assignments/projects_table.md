@@ -9,7 +9,7 @@ contents: [
       "Additional Resources": []
       },
     {
-      "Project": ["Maze Data (Pair Project)"],
+      "Project": [{"Movie Maze Craze (Pair Project)":"https://hackmd.io/@cs111/project2-f22"}],
       "Out": ["10/26/22"],
       "In": ["11/8/22"],
       "Additional Resources": []
