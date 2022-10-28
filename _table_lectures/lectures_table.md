@@ -6,7 +6,7 @@ contents: [
 {
     "Date": ["10/28/22"],
     "Topic": ["Datatypes for Medical History"],
-    "Video": [],
+    "Video": ["https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8aec113c-b383-4c5d-b368-af000150dbd0"],
     "Readings": [{"Textbook 14.1" : "https://dcic-world.org/2022-08-28/trees.html"}],
     "Extras": []
 },
