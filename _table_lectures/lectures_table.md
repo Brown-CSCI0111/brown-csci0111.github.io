@@ -4,6 +4,20 @@ cols: ["Date", "Topic", "Video", "Readings", "Extras"]
 
 contents: [
 {
+    "Date": ["11/2/22"],
+    "Topic": ["Processing Trees and Going to 200"],
+    "Video": [],
+    "Readings": [],
+    "Extras": []
+},
+{
+    "Date": ["10/31/22"],
+    "Topic": ["Representing Documents"],
+    "Video": ["https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=59504717-4274-44c8-9e4e-af000150dc03"],
+    "Readings": [],
+    "Extras": []
+},
+{
     "Date": ["10/28/22"],
     "Topic": ["Datatypes for Medical History"],
     "Video": ["https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8aec113c-b383-4c5d-b368-af000150dbd0"],
