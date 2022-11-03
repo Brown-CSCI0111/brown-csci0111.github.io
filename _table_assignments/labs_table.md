@@ -76,6 +76,16 @@ contents:
         ],
       "Out": ["10/27/22"],
       "Additional Materials": [],
-    }
+    },
+    {
+      "Lab":
+        [
+          {
+            "Lab 8: Tables, Lists, Datatypes, and Trees – Oh My!": "https://hackmd.io/@cs111/lab8-f22",
+          },
+        ],
+      "Out": ["11/03/22"],
+      "Additional Materials": [],
+    },
   ]
 ---
