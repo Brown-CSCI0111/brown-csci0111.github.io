@@ -8,7 +8,7 @@ contents: [
     "Topic": ["Introduction to Python"],
     "Video": [],
     "Readings": [{"Textbook 28.1-28.5":"https://dcic-world.org/2022-08-28/part_pyret-to-python.html"}],
-    "Extras": []
+    "Extras": [{"Initial handout":"assets/lectures/25/pyret-python-sample.pdf"}]
 },
 {
     "Date": ["11/2/22"],
