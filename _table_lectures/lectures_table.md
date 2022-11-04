@@ -8,7 +8,7 @@ contents: [
     "Topic": ["Introduction to Python"],
     "Video": ["https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=24d41c59-1e0b-408c-abd4-af000150dc63"],
     "Readings": [{"Textbook 28.1-28.5":"https://dcic-world.org/2022-08-28/part_pyret-to-python.html"}],
-    "Extras": [{"Initial handout":"assets/lectures/25/pyret-python-sample.pdf"}]
+    "Extras": [{"Initial handout":"assets/lectures/25/pyret-python-sample.pdf"},{"Summary of how to interact with VSCode":"https://hackmd.io/@cs111/using-vscode-f22"}]
 },
 {
     "Date": ["11/2/22"],
