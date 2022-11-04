@@ -4,10 +4,17 @@ cols: ["Date", "Topic", "Video", "Readings", "Extras"]
 
 contents: [
 {
+    "Date": ["11/4/22"],
+    "Topic": ["Introduction to Python"],
+    "Video": [],
+    "Readings": [{"Textbook 28.1-28.5":"https://dcic-world.org/2022-08-28/part_pyret-to-python.html"}],
+    "Extras": []
+},
+{
     "Date": ["11/2/22"],
     "Topic": ["Processing Trees and Going to 200"],
-    "Video": [],
-    "Readings": [],
+    "Video": ["https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=23658252-bd13-4672-a367-af000150dc32"],
+    "Readings": [{"Textbook 14.2-14.3":"https://dcic-world.org/2022-08-28/trees.html#%28part._.Programs_to_.Process_.Ancestor_.Trees%29"}],
     "Extras": []
 },
 {
