@@ -6,7 +6,7 @@ contents: [
 {
     "Date": ["11/4/22"],
     "Topic": ["Introduction to Python"],
-    "Video": [],
+    "Video": ["https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=24d41c59-1e0b-408c-abd4-af000150dc63"],
     "Readings": [{"Textbook 28.1-28.5":"https://dcic-world.org/2022-08-28/part_pyret-to-python.html"}],
     "Extras": [{"Initial handout":"assets/lectures/25/pyret-python-sample.pdf"}]
 },
