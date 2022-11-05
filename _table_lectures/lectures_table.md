@@ -15,7 +15,7 @@ contents: [
     "Topic": ["Processing Trees and Going to 200"],
     "Video": ["https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=23658252-bd13-4672-a367-af000150dc32"],
     "Readings": [{"Textbook 14.2-14.3":"https://dcic-world.org/2022-08-28/trees.html#%28part._.Programs_to_.Process_.Ancestor_.Trees%29"}],
-    "Extras": []
+    "Extras": [{"Final code file (with a key last step that we didn't cover in lecture)":"https://code.pyret.org/editor#share=1O4Dl-5pBdRKHwWx4487o19ao_SspLk03&v=22f3b65"}]
 },
 {
     "Date": ["10/31/22"],
