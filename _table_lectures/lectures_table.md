@@ -4,6 +4,13 @@ cols: ["Date", "Topic", "Video", "Readings", "Extras"]
 
 contents: [
 {
+    "Date": ["11/7/22"],
+    "Topic": ["Python Lists and For-Loops"],
+    "Video": ["https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=854f64e5-956b-4a90-acb0-af000150dc8b"],
+    "Readings": [{"Textbook 28.6-28.8":"https://dcic-world.org/2022-08-28/part_pyret-to-python.html#%28part._python-create-process-lists%29"}],
+    "Extras": [{"Practice problems":"https://edstem.org/us/courses/27983/discussion/2113997"}]
+},
+{
     "Date": ["11/4/22"],
     "Topic": ["Introduction to Python"],
     "Video": ["https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=24d41c59-1e0b-408c-abd4-af000150dc63"],
