@@ -4,6 +4,13 @@ cols: ["Date", "Topic", "Video", "Readings", "Extras"]
 
 contents: [
 {
+    "Date": ["11/9/22"],
+    "Topic": ["Dataclasses and Data Updates"],
+    "Video": [],
+    "Readings": [],
+    "Extras": []
+},
+{
     "Date": ["11/7/22"],
     "Topic": ["Python Lists and For-Loops"],
     "Video": ["https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=854f64e5-956b-4a90-acb0-af000150dc8b"],
