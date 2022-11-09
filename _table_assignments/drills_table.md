@@ -76,6 +76,12 @@ contents: [
 		"Drill": [{ "No drill due Nov 7": "" }],
 		"Out": ["11/4/22"],
 		"In": ["11/7/22"]
+	},
+	{
+	        "Drill": [{ "Drill 11": "https://www.gradescope.com/courses/423395/assignments/2424505" }],
+		"Out": ["11/02/22"],
+		"In": ["11/04/22"]
 	}
 	]
 ---
+
