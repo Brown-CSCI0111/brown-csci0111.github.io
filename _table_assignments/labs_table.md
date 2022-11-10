@@ -87,5 +87,11 @@ contents:
       "Out": ["11/03/22"],
       "Additional Materials": [],
     },
+    {
+      "Lab":
+        [{ "Lab 9: Python Practice": "https://hackmd.io/@cs111/lab9-f22" }],
+      "Out": ["11/10/22"],
+      "Additional Materials": [],
+    },
   ]
 ---
