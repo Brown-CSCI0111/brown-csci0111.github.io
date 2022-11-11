@@ -4,9 +4,16 @@ cols: ["Date", "Topic", "Video", "Readings", "Extras"]
 
 contents: [
 {
+    "Date": ["11/11/22"],
+    "Topic": ["Data Sharing and Memory"],
+    "Video": [],
+    "Readings": [],
+    "Extras": []
+},
+{
     "Date": ["11/9/22"],
     "Topic": ["Dataclasses and Data Updates"],
-    "Video": [],
+    "Video": ["https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=fc832e0a-26e7-4e10-99a8-af000150dcb6"],
     "Readings": [],
     "Extras": []
 },
