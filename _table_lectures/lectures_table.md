@@ -4,18 +4,39 @@ cols: ["Date", "Topic", "Video", "Readings", "Extras"]
 
 contents: [
 {
+    "Date": ["11/11/22"],
+    "Topic": ["Data Sharing and Memory"],
+    "Video": [],
+    "Readings": [],
+    "Extras": []
+},
+{
+    "Date": ["11/9/22"],
+    "Topic": ["Dataclasses and Data Updates"],
+    "Video": ["https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=fc832e0a-26e7-4e10-99a8-af000150dcb6"],
+    "Readings": [],
+    "Extras": []
+},
+{
+    "Date": ["11/7/22"],
+    "Topic": ["Python Lists and For-Loops"],
+    "Video": ["https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=854f64e5-956b-4a90-acb0-af000150dc8b"],
+    "Readings": [{"Textbook 28.6-28.8":"https://dcic-world.org/2022-08-28/part_pyret-to-python.html#%28part._python-create-process-lists%29"}],
+    "Extras": [{"Practice problems":"https://edstem.org/us/courses/27983/discussion/2113997"}]
+},
+{
     "Date": ["11/4/22"],
     "Topic": ["Introduction to Python"],
-    "Video": [],
+    "Video": ["https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=24d41c59-1e0b-408c-abd4-af000150dc63"],
     "Readings": [{"Textbook 28.1-28.5":"https://dcic-world.org/2022-08-28/part_pyret-to-python.html"}],
-    "Extras": []
+    "Extras": [{"Initial handout":"assets/lectures/25/pyret-python-sample.pdf"},{"Summary of how to interact with VSCode":"https://hackmd.io/@cs111/using-vscode-f22"}]
 },
 {
     "Date": ["11/2/22"],
     "Topic": ["Processing Trees and Going to 200"],
     "Video": ["https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=23658252-bd13-4672-a367-af000150dc32"],
     "Readings": [{"Textbook 14.2-14.3":"https://dcic-world.org/2022-08-28/trees.html#%28part._.Programs_to_.Process_.Ancestor_.Trees%29"}],
-    "Extras": []
+    "Extras": [{"Final code file (with a key last step that we didn't cover in lecture)":"https://code.pyret.org/editor#share=1O4Dl-5pBdRKHwWx4487o19ao_SspLk03&v=22f3b65"}]
 },
 {
     "Date": ["10/31/22"],
