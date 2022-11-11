@@ -8,14 +8,14 @@ contents: [
     "Topic": ["Data Sharing and Memory"],
     "Video": [],
     "Readings": [],
-    "Extras": []
+    "Extras": [{"starter code":"assets/lectures/28/lec28-code.py"}]
 },
 {
     "Date": ["11/9/22"],
     "Topic": ["Dataclasses and Data Updates"],
     "Video": ["https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=fc832e0a-26e7-4e10-99a8-af000150dcb6"],
     "Readings": [],
-    "Extras": []
+    "Extras": [{"code from class":"assets/lectures/27/lec27-code.py"}]
 },
 {
     "Date": ["11/7/22"],
