@@ -15,7 +15,7 @@ contents: [
     "Topic": ["Dataclasses and Data Updates"],
     "Video": ["https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=fc832e0a-26e7-4e10-99a8-af000150dcb6"],
     "Readings": [],
-    "Extras": [{"code from class":"assets/lectures/27/lec27-code.py"}]
+    "Extras": [{"code from class":"assets/lectures/27/lec27_code.py"}]
 },
 {
     "Date": ["11/7/22"],
