@@ -24,7 +24,10 @@ contents:
           },
         ],
       "Out": ["09/14/22"],
-      "Additional Materials": [],
+      "Additional Materials":
+        [
+          "Lab 1 Solution": "https://drive.google.com/file/d/1f7XdfHT5Umn9ZyIsq-yRfqgifv-qZoFx/view?usp=sharing",
+        ],
     },
     {
       "Lab":
@@ -34,12 +37,18 @@ contents:
           },
         ],
       "Out": ["09/21/22"],
-      "Additional Materials": [],
+      "Additional Materials":
+        [
+          "Lab 2 Solution": "https://drive.google.com/file/d/1d8PCgu3txoRiRDeJnq_uDjRoLFNBVfwv/view?usp=sharing",
+        ],
     },
     {
       "Lab": [{ "Lab 3: Tables": "https://hackmd.io/@cs111/lab3-f22" }],
       "Out": ["09/28/22"],
-      "Additional Materials": [],
+      "Additional Materials":
+        [
+          "Lab 3 Solution": "https://drive.google.com/file/d/1JfXGUffJXn3fsRvDMwdKsiWh02xZh4bf/view?usp=sharing",
+        ],
     },
     {
       "Lab":
@@ -49,13 +58,19 @@ contents:
           },
         ],
       "Out": ["10/4/22"],
-      "Additional Materials": [],
+      "Additional Materials":
+        [
+          "Lab 4 Solution": "https://drive.google.com/file/d/1ktYzdiwEtSt5Qxz_P3QqZ59YBcfWMZIQ/view?usp=sharing",
+        ],
     },
     {
       "Lab":
         [{ "Lab 5: Maps & More Maps": "https://hackmd.io/@cs111/lab5-f22" }],
       "Out": ["10/13/22"],
-      "Additional Materials": [],
+      "Additional Materials":
+        [
+          "Lab 5 Solution": "https://drive.google.com/file/d/1Z_T-h_SIco0A_E3b51XVkAVkp_wYiDLK/view?usp=sharing",
+        ],
     },
     {
       "Lab":
@@ -65,7 +80,10 @@ contents:
           },
         ],
       "Out": ["10/20/22"],
-      "Additional Materials": [],
+      "Additional Materials":
+        [
+          "Lab 6 Solution": "https://drive.google.com/file/d/1LkAG9iAg6jnoGgBs0sluMh4jbXq68A2U/view?usp=sharing",
+        ],
     },
     {
       "Lab":
@@ -75,7 +93,10 @@ contents:
           },
         ],
       "Out": ["10/27/22"],
-      "Additional Materials": [],
+      "Additional Materials":
+        [
+          "Lab 7 Solution": "https://drive.google.com/file/d/1060ChaJ606S1K07OdgHu4RwY0ZVgm4Od/view?usp=sharing",
+        ],
     },
     {
       "Lab":
@@ -85,7 +106,10 @@ contents:
           },
         ],
       "Out": ["11/03/22"],
-      "Additional Materials": [],
+      "Additional Materials":
+        [
+          "Lab 8 Solution": "https://drive.google.com/file/d/1swUTaED9VkV4r00K_f7--ovyrNZq0bE-/view?usp=sharing",
+        ],
     },
     {
       "Lab":
