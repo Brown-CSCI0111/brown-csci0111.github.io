@@ -4,17 +4,31 @@ cols: ["Date", "Topic", "Video", "Readings", "Extras"]
 
 contents: [
 {
+    "Date": ["11/16/22"],
+    "Topic": ["Memory Diagrams"],
+    "Video": [],
+    "Readings": [{"Textbook 29.3 (again), 29.4 - 29.5":"https://dcic-world.org/2022-08-28/part_state.html#%28part._.Understanding_.Memory%29"}],
+    "Extras": []
+},
+{
+    "Date": ["11/14/22"],
+    "Topic": ["Testing Functions with Mutation"],
+    "Video": ["https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d7a4b5de-534b-47e4-bd5f-af000150dd35"],
+    "Readings": [{"Textbook 29.1 (again)":"https://dcic-world.org/2022-08-28/part_state.html#%28part._.Modifying_.Fields_of_.Structured_.Data%29"}],
+    "Extras": []
+},
+{
     "Date": ["11/11/22"],
     "Topic": ["Data Sharing and Memory"],
-    "Video": [],
-    "Readings": [],
+    "Video": ["https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c5012de2-f83b-42ca-8c18-af000150dcf8"],
+    "Readings": [{"Textbook 29.3":"https://dcic-world.org/2022-08-28/part_state.html#%28part._.Understanding_.Memory%29"}],
     "Extras": [{"starter code":"assets/lectures/28/lec28-code.py"}]
 },
 {
     "Date": ["11/9/22"],
     "Topic": ["Dataclasses and Data Updates"],
     "Video": ["https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=fc832e0a-26e7-4e10-99a8-af000150dcb6"],
-    "Readings": [],
+    "Readings": [{"Textbook 29.1 - 29.2":"https://dcic-world.org/2022-08-28/part_state.html#%28part._.Modifying_.Fields_of_.Structured_.Data%29"}],
     "Extras": [{"code from class":"assets/lectures/27/lec27_code.py"}]
 },
 {
