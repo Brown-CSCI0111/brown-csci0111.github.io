@@ -15,7 +15,7 @@ contents: [
     "Topic": ["Testing Functions with Mutation"],
     "Video": ["https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d7a4b5de-534b-47e4-bd5f-af000150dd35"],
     "Readings": [{"Textbook 29.1 (again)":"https://dcic-world.org/2022-08-28/part_state.html#%28part._.Modifying_.Fields_of_.Structured_.Data%29"}],
-    "Extras": []
+    "Extras": [{"Writing programs to maintain shared data":"https://docs.google.com/document/d/1OUK4n6qm95XZJUKHQ_ySMeXM8ABwRb9jaidHgW5as8Y/edit?usp=sharing"}]
 },
 {
     "Date": ["11/11/22"],
