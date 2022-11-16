@@ -8,7 +8,7 @@ contents: [
     "Topic": ["Memory Diagrams"],
     "Video": [],
     "Readings": [{"Textbook 29.3 (again), 29.4 - 29.5":"https://dcic-world.org/2022-08-28/part_state.html#%28part._.Understanding_.Memory%29"}],
-    "Extras": []
+    "Extras": [{"starter code":"assets/lectures/30/lec30-posts.py"}]
 },
 {
     "Date": ["11/14/22"],
