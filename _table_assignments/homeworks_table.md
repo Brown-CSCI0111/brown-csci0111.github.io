@@ -36,6 +36,11 @@ contents: [
       "Assignment": [{"Homework 6 (Python Practice)" : "https://hackmd.io/@cs111/hw6-f22"}],
       "Out": ["11/9/22"],
       "In": ["11/15/22"]
+    },
+    {
+      "Assignment": [{"Homework 7 (Memory and Mutation)" : "https://hackmd.io/@cs111/hw7-f22"}],
+      "Out": ["11/16/22"],
+      "In": ["11/22/22"]
     }
   ]
 ---
