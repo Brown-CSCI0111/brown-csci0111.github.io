@@ -6,9 +6,11 @@ contents: [
 {
     "Date": ["11/16/22"],
     "Topic": ["Memory Diagrams"],
-    "Video": [],
+    "Video": ["https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5f280881-ea24-4c93-abe3-af000150dd64"],
     "Readings": [{"Textbook 29.3 (again), 29.4 - 29.5":"https://dcic-world.org/2022-08-28/part_state.html#%28part._.Understanding_.Memory%29"}],
-    "Extras": [{"starter code":"assets/lectures/30/lec30-posts.py"}]
+    "Extras": [{"starter code":"assets/lectures/30/lec30-posts.py"},
+    	       {"final code":"assets/lectures/30/lec30-posts-final.py"},
+               {"final memory diagram":"https://docs.google.com/spreadsheets/d/1c_S527W6hnHDsak9EPGJ9MG40khO5hbYlEVmIkqhSbc/"}]
 },
 {
     "Date": ["11/14/22"],
