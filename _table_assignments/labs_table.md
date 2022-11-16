@@ -117,5 +117,15 @@ contents:
       "Out": ["11/10/22"],
       "Additional Materials": [],
     },
+    {
+      "Lab":
+        [
+          {
+            "Lab 10: Understanding and Testing Mutation": "https://hackmd.io/@cs111/lab10-f22",
+          },
+        ],
+      "Out": ["11/17/22"],
+      "Additional Materials": [],
+    },
   ]
 ---
