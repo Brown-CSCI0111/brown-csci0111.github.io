@@ -4,9 +4,15 @@ cols: ["Date", "Topic", "Video", "Readings", "Extras"]
 
 contents: [
 {
+    "Date": ["11/21/22"],
+    "Topic": ["Dictionaries vs Tables"],"https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=64bf7d6a-611c-40c7-9d12-af000150dd97"],
+    "Readings": [],
+    "Extras": []
+},
+{
     "Date": ["11/18/22"],
-    "Topic": ["DIctionaries"],
-    "Video": [],
+    "Topic": ["Dictionaries"],
+    "Video": ["https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=64bf7d6a-611c-40c7-9d12-af000150dd97"],
     "Readings": [{"Textbook 32":"https://dcic-world.org/2022-08-28/part_state.html#%28part._dictionaries%29"}],
     "Extras": [{"starter code":"assets/lectures/31/lec31-dicts.py"}]
 },
