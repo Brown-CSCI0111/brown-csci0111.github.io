@@ -4,6 +4,13 @@ cols: ["Date", "Topic", "Video", "Readings", "Extras"]
 
 contents: [
 {
+    "Date": ["11/18/22"],
+    "Topic": ["DIctionaries"],
+    "Video": [],
+    "Readings": [{"Textbook 32":"https://dcic-world.org/2022-08-28/part_state.html#%28part._dictionaries%29"}],
+    "Extras": [{"starter code":"assets/lectures/31/lec31-dicts.py"}]
+},
+{
     "Date": ["11/16/22"],
     "Topic": ["Memory Diagrams"],
     "Video": ["https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5f280881-ea24-4c93-abe3-af000150dd64"],
