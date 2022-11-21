@@ -8,7 +8,7 @@ contents: [
     "Topic": ["Dictionaries vs Tables"],
     "Video": ["https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=64bf7d6a-611c-40c7-9d12-af000150dd97"],
     "Readings": [],
-    "Extras": []
+    "Extras": [{"starter code":"assets/lectures/32/lec32_dicts_tables.py"}]
 },
 {
     "Date": ["11/18/22"],
