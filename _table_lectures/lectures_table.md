@@ -8,7 +8,7 @@ contents: [
     "Topic": ["Introduction to Pandas"],
     "Video": [],
     "Readings": [{"gdoc of today's code":"https://docs.google.com/document/d/1B1jxBYfSvL66860DgJxRBfUgizENuwPC0O3PG-AIDRI/edit"}],
-    "Extras": [{"starter file":"assets/lectures/32/lec33_pandas_starter.py"}, {"Pandas cheat sheet":"https://github.com/pandas-dev/pandas/blob/main/doc/cheatsheet/Pandas_Cheat_Sheet.pdf"}]
+    "Extras": [{"starter file":"assets/lectures/33/lec33_pandas_starter.py"}, {"Pandas cheat sheet":"https://github.com/pandas-dev/pandas/blob/main/doc/cheatsheet/Pandas_Cheat_Sheet.pdf"}]
 },
 {
     "Date": ["11/23/22"],
