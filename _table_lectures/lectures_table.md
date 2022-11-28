@@ -6,7 +6,7 @@ contents: [
 {
     "Date": ["11/28/22"],
     "Topic": ["Introduction to Pandas"],
-    "Video": [],
+    "Video": ["https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=e67bc4be-4cc8-4e62-bbcb-af000150de64"],
     "Readings": [{"gdoc of today's code":"https://docs.google.com/document/d/1B1jxBYfSvL66860DgJxRBfUgizENuwPC0O3PG-AIDRI/edit"}],
     "Extras": [{"starter file":"assets/lectures/33/lec33_pandas_starter.py"}, {"Pandas cheat sheet":"https://github.com/pandas-dev/pandas/blob/main/doc/cheatsheet/Pandas_Cheat_Sheet.pdf"}]
 },
