@@ -4,6 +4,13 @@ cols: ["Date", "Topic", "Video", "Readings", "Extras"]
 
 contents: [
 {
+    "Date": ["11/23/22"],
+    "Topic": ["No class -- Thanksgiving break"],
+    "Video": [],
+    "Readings": [],
+    "Extras": []
+},
+{
     "Date": ["11/21/22"],
     "Topic": ["Dictionaries vs Tables"],
     "Video": ["https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=64bf7d6a-611c-40c7-9d12-af000150dd97"],
