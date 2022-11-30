@@ -4,6 +4,13 @@ cols: ["Date", "Topic", "Video", "Readings", "Extras"]
 
 contents: [
 {
+    "Date": ["11/30/22"],
+    "Topic": ["Pandas, part 2"],
+    "Video": [],
+    "Readings": [{"same gdoc":"https://docs.google.com/document/d/1B1jxBYfSvL66860DgJxRBfUgizENuwPC0O3PG-AIDRI/edit"}],
+    "Extras": []
+},
+{
     "Date": ["11/28/22"],
     "Topic": ["Introduction to Pandas"],
     "Video": ["https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=e67bc4be-4cc8-4e62-bbcb-af000150de64"],
