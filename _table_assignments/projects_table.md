@@ -22,8 +22,8 @@ contents:
       "Additional Resources": [],
     },
     {
-      "Project": ["Pandas (Individual Project)"],
-      "Out": ["11/30/22"],
+      "Project": [{"Pandas (Individual Project)":"https://hackmd.io/@cs111/mini-proj-f22"}],
+      "Out": ["11/29/22"],
       "In": ["12/9/22"],
       "Additional Resources": [],
     },
