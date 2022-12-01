@@ -130,5 +130,15 @@ contents:
       "Out": ["11/17/22"],
       "Additional Materials": [],
     },
+    {
+      "Lab":
+        [
+          {
+            "Lab 11: Using Resources, Pandas": "https://hackmd.io/@cs111/lab11-f22",
+          },
+        ],
+      "Out": ["12/1/22"],
+      "Additional Materials": [],
+    }
   ]
 ---
