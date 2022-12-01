@@ -4,6 +4,20 @@ cols: ["Date", "Topic", "Video", "Readings", "Extras"]
 
 contents: [
 {
+    "Date": ["12/2/22"],
+    "Topic": ["Reshaping Data"],
+    "Video": [],
+    "Readings": [],
+    "Extras": []
+},
+{
+    "Date": ["11/30/22"],
+    "Topic": ["Pandas, part 2"],
+    "Video": ["https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=a0891bf4-4074-4c19-97aa-af000150de8e"],
+    "Readings": [{"same gdoc":"https://docs.google.com/document/d/1B1jxBYfSvL66860DgJxRBfUgizENuwPC0O3PG-AIDRI/edit"}],
+    "Extras": [{"PandasTutor":"https://pandastutor.com/vis.html"}]
+},
+{
     "Date": ["11/28/22"],
     "Topic": ["Introduction to Pandas"],
     "Video": ["https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=e67bc4be-4cc8-4e62-bbcb-af000150de64"],
