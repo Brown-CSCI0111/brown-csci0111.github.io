@@ -96,7 +96,13 @@ contents: [
 	        "Drill": [{ "Drill 13": "https://www.gradescope.com/courses/423395/assignments/2449931" }],
 		"Out": ["11/18/22"],
 		"In": ["11/21/22"]
+	},
+	{
+	        "Drill": [{ "Optional (try PandasTutor)": "https://edstem.org/us/courses/27983/discussion/2242429" }],
+		"Out": ["11/30/22"],
+		"In": ["12/2/22"]
 	}
 	]
 ---
 
+https://edstem.org/us/courses/27983/discussion/2242429
