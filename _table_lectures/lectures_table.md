@@ -8,7 +8,7 @@ contents: [
     "Topic": ["Reshaping Data"],
     "Video": [],
     "Readings": [],
-    "Extras": [{"starter file":"assets/lectures/35/lec35_pandas_starter.py"}]
+    "Extras": [{"starter file":"assets/lectures/35/lec35_starter.py"}]
 },
 {
     "Date": ["11/30/22"],
