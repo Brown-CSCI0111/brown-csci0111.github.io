@@ -8,7 +8,8 @@ contents: [
     "Topic": ["Program efficiency"],
     "Video": [],
     "Readings": [],
-    "Extras": []
+    "Extras": [{"starter code":"assets/lectures/36/lec36_bigO.py"}, 
+               {"Google Doc version":"https://docs.google.com/document/d/1S4xQW5OADu6OkPBxdNNnb70rWQwx0u_o2EzLj0JploU"}]
 },
 {
     "Date": ["12/2/22"],
