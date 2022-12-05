@@ -4,11 +4,18 @@ cols: ["Date", "Topic", "Video", "Readings", "Extras"]
 
 contents: [
 {
-    "Date": ["12/2/22"],
-    "Topic": ["Reshaping Data"],
+    "Date": ["12/5/22"],
+    "Topic": ["Program efficiency"],
     "Video": [],
     "Readings": [],
     "Extras": []
+},
+{
+    "Date": ["12/2/22"],
+    "Topic": ["Reshaping Data"],
+    "Video": ["https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8d034bfd-b6fa-4f10-b11f-af000150deb4"],
+    "Readings": [],
+    "Extras": [{"starter file":"assets/lectures/35/lec35_starter.py"}]
 },
 {
     "Date": ["11/30/22"],

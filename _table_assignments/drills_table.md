@@ -101,6 +101,11 @@ contents: [
 	        "Drill": [{ "Optional (try PandasTutor)": "https://edstem.org/us/courses/27983/discussion/2242429" }],
 		"Out": ["11/30/22"],
 		"In": ["12/2/22"]
+	},
+	{
+		"Drill": [{ "No drill due Dec 5": "" }],
+		"Out": ["12/2/22"],
+		"In": ["12/5/22"]
 	}
 	]
 ---
