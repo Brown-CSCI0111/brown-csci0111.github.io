@@ -4,10 +4,17 @@ cols: ["Date", "Topic", "Video", "Readings", "Extras"]
 
 contents: [
 {
-    "Date": ["12/5/22"],
-    "Topic": ["Program efficiency"],
+    "Date": ["12/7/22"],
+    "Topic": ["Brief Intro to Machine Learning"],
     "Video": [],
     "Readings": [],
+    "Extras": []
+},
+{
+    "Date": ["12/5/22"],
+    "Topic": ["Program efficiency"],
+    "Video": ["https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f6f7fb37-d99f-4caa-9101-af000150dede"],
+    "Readings": [{"textbook chapter 22":"https://dcic-world.org/2022-08-28/part_algorithms.html#%28part._.A_.Little__.True__.Story%29"}],
     "Extras": [{"starter code":"assets/lectures/36/lec36_bigO.py"}, 
                {"Google Doc version":"https://docs.google.com/document/d/1S4xQW5OADu6OkPBxdNNnb70rWQwx0u_o2EzLj0JploU"}]
 },
