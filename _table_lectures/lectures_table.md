@@ -6,7 +6,7 @@ contents: [
 {
     "Date": ["12/7/22"],
     "Topic": ["Brief Intro to Machine Learning"],
-    "Video": [],
+    "Video": ["https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d9a526f7-b005-4afb-9917-af000150deff&start=2990.962994"],
     "Readings": [],
     "Extras": []
 },
