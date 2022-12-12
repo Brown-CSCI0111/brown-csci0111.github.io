@@ -128,7 +128,15 @@ contents:
           },
         ],
       "Out": ["11/17/22"],
-      "Additional Materials": [],
+      "Additional Materials":
+        [
+          {
+            "Lab 10 Solution (Memory Diagram)": "https://docs.google.com/presentation/d/11UT44nIlInVREEBP58jTJI3RGSXJZVwi3x_aTopZgng/edit?usp=sharing",
+          },
+          {
+            "Lab 10 Solution (Code)": "https://drive.google.com/file/d/1mprtUfDSwbICHY32g7W2E00wLY8q8Ltw/view?usp=sharing",
+          },
+        ],
     },
     {
       "Lab":
@@ -138,7 +146,15 @@ contents:
           },
         ],
       "Out": ["12/1/22"],
-      "Additional Materials": [],
-    }
+      "Additional Materials":
+        [
+          {
+            "Lab 11 Solution (Task 1)": "https://drive.google.com/file/d/1orUz6t661OkfdbadrPIyNKBrb4Uqtr8I/view?usp=sharing",
+          },
+          {
+            "Lab 11 Solution (Task 2)": "https://drive.google.com/file/d/1ZARSJ89grQoZwuyp1luNy4Vg26_YWFIu/view?usp=sharing",
+          },
+        ],
+    },
   ]
 ---
