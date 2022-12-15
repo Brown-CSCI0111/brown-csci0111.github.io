@@ -1,21 +1,88 @@
 {% include base.html %}
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: " en" }}">
+<html lang="en">
+  <head>
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    /> -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css"
+    />
+    <!-- <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+      crossorigin="anonymous"
+    /> -->
+  </head>
+  <!-- <html lang={{ page.lang | default: site.lang | default: en }}> -->
 
-{%- include head.html -%}
+  {%- include head.html -%}
 
-<body>
-  <div id="home-page-grid">
-    {%- include left-panel.html -%}
-    <div id="grid-content-area">
-      <div id="gradient-container">
-        <div id="home-gradient"></div>
-      </div>
-      <main id="home-page-container" aria-label="Content">
-        <div id="welcome-message">
-          Welcome CS111!
+  <body>
+    <div id="home-page-grid">
+      {%- include left-panel.html -%}
+      <div id="grid-content-area">
+        <div id="gradient-container">
+          <div id="home-gradient"></div>
         </div>
-        <!-- <div class="course-description-container">
+        <main id="home-page-container" aria-label="Content">
+          <div id="welcome-message">Welcome CS111!</div>
+
+          <!-- SPOTIFY WRAPPED MODAL -->
+          <div class="wrapped-modal" id="wrapped-modal">
+            <div class="modal-container">
+              <h1 class="modal-title">
+                YOUR 2022 CS111IFY WRAPPED IS
+                <div class="waviy">
+                  <span class="waviy-span1">H</span>
+                  <span class="waviy-span2">E</span>
+                  <span class="waviy-span3">R</span>
+                  <span class="waviy-span4">E</span>
+                  <span class="waviy-span5">!</span>
+                  <span class="waviy-span6">🎵</span>
+                  <span class="waviy-span7">🎤</span>
+                </div>
+              </h1>
+              <strong>
+                Ready? Discover your top programs, see how long you listened,
+                and more.
+              </strong>
+              <!-- <img
+                src="https://stationeight.files.wordpress.com/2020/12/moshed-2020-12-2-11-58-5.gif"
+              /> -->
+              <img
+                src="https://media.itsnicethat.com/original_images/22_Wrapped_Shapes.gif"
+              />
+              <div class="modal-button-container">
+                <a href="/wrapped" target="_blank">
+                  <button class="modal-button" id="modal-button">
+                    Check It Out
+                  </button>
+                </a>
+                <button class="modal-button" id="close">Close</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="wrapped-content">
+            <a href="/wrapped" target="_blank">
+              <span> See Wrapped Content </span>
+            </a>
+            <span></span>
+          </div>
+
+          <!-- <div class="course-description-container">
           <div class="course-description-text">
             CSCI0111 is an introductory course for both
             concentrators and non-concentrators who want to understand
@@ -40,146 +107,267 @@
             in-person for everyone across both sections.
           </div>
         </div> -->
-        <div class="home-quick-links-container">
-          <div class="home-quick-links-element">
-            <a href="https://hackmd.io/@cs111/syllabus-f22" class="nav-link">
-              <img src="../assets/images/icons/google_doc_icon.png" alt="Syallbus Icon" class="home-quick-links-icon" />
-              <span class="home-quick-links-text">Syllabus</span>
-            </a>
+          <div class="home-quick-links-container">
+            <div class="home-quick-links-element">
+              <a href="https://hackmd.io/@cs111/syllabus-f22" class="nav-link">
+                <img
+                  src="../assets/images/icons/google_doc_icon.png"
+                  alt="Syallbus Icon"
+                  class="home-quick-links-icon"
+                />
+                <span class="home-quick-links-text">Syllabus</span>
+              </a>
+            </div>
+            <div class="home-quick-links-element">
+              <a href="https://hours.cs.brown.edu/" class="nav-link">
+                <img
+                  src="../assets/images/icons/hours_icon.png"
+                  alt="Hours Icon"
+                  class="home-quick-links-icon"
+                />
+                <span class="home-quick-links-text">Hours</span>
+              </a>
+            </div>
+            <div class="home-quick-links-element">
+              <a href="https://edstem.org/us/courses/27983" class="nav-link">
+                <img
+                  src="../assets/images/icons/edstem_icon.png"
+                  alt="EdStem Icon"
+                  class="home-quick-links-icon"
+                />
+                <span class="home-quick-links-text">EdStem</span>
+              </a>
+            </div>
+            <div class="home-quick-links-element">
+              <a
+                href="https://www.gradescope.com/courses/423395"
+                class="nav-link"
+              >
+                <img
+                  src="../assets/images/icons/gradescope_icon.png"
+                  alt="Gradescope Icon"
+                  class="home-quick-links-icon"
+                />
+                <span class="home-quick-links-text">Gradescope</span>
+              </a>
+            </div>
+            <div class="home-quick-links-element">
+              <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSfNXOxjwYlv0N06xJsox-VB9Ms7mGMqOFDfulaDmQQI_lWwZA/viewform"
+                class="nav-link"
+              >
+                <img
+                  src="../assets/images/icons/google_form_icon.png"
+                  alt="Extension Request Icon"
+                  class="home-quick-links-icon"
+                />
+                <span class="home-quick-links-text"
+                  >Extension Request Form</span
+                >
+              </a>
+            </div>
+            <div class="home-quick-links-element">
+              <a href="https://forms.gle/PZyGigFVc2hNUPku6" class="nav-link">
+                <img
+                  src="../assets/images/icons/google_form_icon.png"
+                  alt="Permanent Lab Switch Icon"
+                  class="home-quick-links-icon"
+                />
+                <span class="home-quick-links-text"
+                  >Permanent Lab Switch Form</span
+                >
+              </a>
+            </div>
+            <div class="home-quick-links-element">
+              <a
+                href="https://hackmd.io/@cs111/going-to-200-f22"
+                class="nav-link"
+              >
+                <img
+                  src="../assets/images/icons/google_doc_icon.png"
+                  alt="Syallbus Icon"
+                  class="home-quick-links-icon"
+                />
+                <span class="home-quick-links-text">Going to CS 200</span>
+              </a>
+            </div>
+            <div class="home-quick-links-element">
+              <a href="https://forms.gle/34k74C2srmQjjPZW7" class="nav-link">
+                <img
+                  src="../assets/images/icons/google_form_icon.png"
+                  alt="Anonymous Feedback Form Icon"
+                  class="home-quick-links-icon"
+                />
+                <span class="home-quick-links-text"
+                  >Anonymous Feedback Form</span
+                >
+              </a>
+            </div>
+            <div class="home-quick-links-element">
+              <a
+                href="https://cs.brown.edu/media/filer_public/03/0a/030a6a2e-7a61-4c30-98c1-dce87b9d9899/brown_cs_health_and_wellness_resources.pdf"
+                class="nav-link"
+              >
+                <img
+                  src="../assets/images/icons/health_icon.png"
+                  alt="Health and Wellness Icon"
+                  class="home-quick-links-icon"
+                />
+                <span class="home-quick-links-text"
+                  >Brown CS Health and Wellness</span
+                >
+              </a>
+            </div>
           </div>
-          <div class="home-quick-links-element">
-            <a href="https://hours.cs.brown.edu/" class="nav-link">
-              <img src="../assets/images/icons/hours_icon.png" alt="Hours Icon" class="home-quick-links-icon" />
-              <span class="home-quick-links-text">Hours</span>
-            </a>
+          <div class="home-resources">
+            <div class="home-resources-info">
+              <div class="home-resources-text">Learning Resources</div>
+              <p>
+                Each of us (professor, students, staff) has a role to play in
+                your successful learning in 0111. The following links summarize
+                our expectations and practices:
+              </p>
+              <ul>
+                <li>
+                  <a href="https://hackmd.io/@cs111/learning-f22" class="link"
+                    >Tips on Learning Programming</a
+                  >
+                </li>
+                <li>
+                  <a href="https://hackmd.io/@cs111/homework-guide" class="link"
+                    >Assignment Logistics</a
+                  >
+                </li>
+                <li>
+                  Planning and
+                  <a
+                    href="https://hackmd.io/@cs111/examples-and-tests"
+                    class="link"
+                    >Testing</a
+                  >
+                  Programs
+                </li>
+                <li>
+                  <a
+                    href="https://hackmd.io/@cs111/working-with-staff"
+                    class="link"
+                    >Getting Help from Staff</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://hackmd.io/@cs111/syllabus-f22#remote"
+                    class="link"
+                    >The Online/Remote Section (S02)</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="home-resources-info">
+              <div class="home-resources-text">Office Hours Guide</div>
+              Click
+              <a href="https://hours.cs.brown.edu/" class="link">here</a> to
+              access the Hours page and enter the queue for CS0111 Office Hours.
+              We will do our best to see everyone!
+              <br />
+              <br />
+              Remember that you can always ask questions on
+              <a
+                href="https://edstem.org/us/courses/27983/discussion/"
+                class="link"
+                >EdStem!</a
+              >
+              TAs will be monitoring the EdStem discussion board and will try to
+              answer your questions as soon as possible.
+              <br />
+              <br />
+              Please email Kathi if you would like to schedule an appointment
+              outside of office hours!
+            </div>
           </div>
-          <div class="home-quick-links-element">
-            <a href="https://edstem.org/us/courses/27983" class="nav-link">
-              <img src="../assets/images/icons/edstem_icon.png" alt="EdStem Icon" class="home-quick-links-icon" />
-              <span class="home-quick-links-text">EdStem</span>
-            </a>
+          <div class="home-calendar-element">
+            <div class="home-resources-text">Office Hours</div>
+            <iframe
+              src="https://calendar.google.com/calendar/embed?height=300&wkst=1&bgcolor=%23000000&ctz=America%2FNew_York&mode=WEEK&showTitle=0&showDate=0&showPrint=0&showTabs=1&showTz=1&showCalendars=0&showNav=1&src=Y19ucmJrN2NiazNpYXIwOTljcGI4Z3FjcGFzNEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%237986CB"
+              style="border-width: 0"
+              width="400"
+              height="300"
+              frameborder="0"
+              scrolling="no"
+              class="home-calendar"
+            ></iframe>
           </div>
-          <div class="home-quick-links-element">
-            <a href="https://www.gradescope.com/courses/423395" class="nav-link">
-              <img src="../assets/images/icons/gradescope_icon.png" alt="Gradescope Icon"
-                class="home-quick-links-icon" />
-              <span class="home-quick-links-text">Gradescope</span>
-            </a>
-          </div>
-          <div class="home-quick-links-element">
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfNXOxjwYlv0N06xJsox-VB9Ms7mGMqOFDfulaDmQQI_lWwZA/viewform"
-              class="nav-link">
-              <img src="../assets/images/icons/google_form_icon.png" alt="Extension Request Icon"
-                class="home-quick-links-icon" />
-              <span class="home-quick-links-text">Extension Request Form</span>
-            </a>
-          </div>
-          <div class="home-quick-links-element">
-            <a href="https://forms.gle/PZyGigFVc2hNUPku6" class="nav-link">
-              <img src="../assets/images/icons/google_form_icon.png" alt="Permanent Lab Switch Icon"
-                class="home-quick-links-icon" />
-              <span class="home-quick-links-text">Permanent Lab Switch Form</span>
-            </a>
-          </div>
-          <div class="home-quick-links-element">
-            <a href="https://hackmd.io/@cs111/going-to-200-f22" class="nav-link">
-              <img src="../assets/images/icons/google_doc_icon.png" alt="Syallbus Icon" 
-                class="home-quick-links-icon" />
-              <span class="home-quick-links-text">Going to CS 200</span>
-            </a>
-          </div>
-          <!--
-          <div class="home-quick-links-element">
-            <a href="https://forms.gle/vcDBJcu4sQKpo1zk7" class="nav-link">
-              <img src="../assets/images/icons/google_form_icon.png" alt="Blocklist Form Icon"
-                class="home-quick-links-icon" />
-              <span class="home-quick-links-text">Blocklist Form</span>
-            </a>
-          </div>
-          -->
-          <div class="home-quick-links-element">
-            <a href="https://forms.gle/34k74C2srmQjjPZW7" class="nav-link">
-              <img src="../assets/images/icons/google_form_icon.png" alt="Anonymous Feedback Form Icon"
-                class="home-quick-links-icon" />
-              <span class="home-quick-links-text">Anonymous Feedback Form</span>
-            </a>
-          </div>
-          <div class="home-quick-links-element">
-            <a href="https://cs.brown.edu/media/filer_public/03/0a/030a6a2e-7a61-4c30-98c1-dce87b9d9899/brown_cs_health_and_wellness_resources.pdf"
-              class="nav-link">
-              <img src="../assets/images/icons/health_icon.png" alt="Health and Wellness Icon"
-                class="home-quick-links-icon" />
-              <span class="home-quick-links-text">Brown CS Health and Wellness</span>
-            </a>
-          </div>
-        </div>
-        <div class="home-resources">
-          <div class="home-resources-info">
-            <div class="home-resources-text">Learning Resources</div>
-            <p>
-              Each of us (professor, students, staff) has a role to
-              play in your successful learning in 0111. The following
-              links summarize our expectations and practices:
-            </p>
-            <ul>
-              <li><a href="https://hackmd.io/@cs111/learning-f22" class="link">Tips on
-                  Learning Programming</a></li>
-              <li><a href="https://hackmd.io/@cs111/homework-guide" class="link">Assignment Logistics</a></li>
-              <li>Planning and <a href="https://hackmd.io/@cs111/examples-and-tests" class="link">Testing</a> Programs
-              </li>
-              <li><a href="https://hackmd.io/@cs111/working-with-staff" class="link">Getting Help from Staff</a></li>
-              <li><a href="https://hackmd.io/@cs111/syllabus-f22#remote" class="link">The Online/Remote Section
-                  (S02)</a></li>
-            </ul>
-          </div>
-          <div class="home-resources-info">
-            <div class="home-resources-text">Office Hours Guide</div>
-            Click <a href="https://hours.cs.brown.edu/" class="link">here</a> to access the Hours page and enter the
-            queue for CS0111 Office Hours. We will do our best to see everyone!
-            <br />
-            <br />
-            Remember that you can always ask questions on <a href="https://edstem.org/us/courses/27983/discussion/"
-              class="link">EdStem!</a> TAs will be monitoring the EdStem discussion board and will try to answer your
-            questions as soon as possible.
-            <br />
-            <br />
-            Please email Kathi if you would like to schedule an appointment outside of office hours!
-          </div>
-        </div>
-        <div class="home-calendar-element">
-          <div class="home-resources-text">Office Hours</div>
-          <iframe
-            src="https://calendar.google.com/calendar/embed?height=300&wkst=1&bgcolor=%23000000&ctz=America%2FNew_York&mode=WEEK&showTitle=0&showDate=0&showPrint=0&showTabs=1&showTz=1&showCalendars=0&showNav=1&src=Y19ucmJrN2NiazNpYXIwOTljcGI4Z3FjcGFzNEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%237986CB"
-            style="border-width:0" width="400" height="300" frameborder="0" scrolling="no"
-            class="home-calendar"></iframe>
-        </div>
-      </main>
+        </main>
+      </div>
+      {%- include right-panel.html -%}
     </div>
-    {%- include right-panel.html -%}
-  </div>
-</body>
-<script>
-  const setWelcomeMessage = () => {
-    const welcomeMessage = document.querySelector('#welcome-message');
-    const date = new Date();
-    let message;
-    if (date.getHours() < 4) {
-      message = 'Hello CS111 night owl';
-    } else if (date.getHours() < 8) {
-      message = 'Hello CS111 early bird';
-    } else if (date.getHours() < 12) {
-      message = 'Good morning CS111';
-    } else if (date.getHours() < 18) {
-      message = 'Good afternoon CS111';
-    } else if (date.getHours() < 21) {
-      message = 'Good evening CS111';
+  </body>
+  <script>
+    const setWelcomeMessage = () => {
+      const welcomeMessage = document.querySelector("#welcome-message");
+      const date = new Date();
+      let message;
+      if (date.getHours() < 4) {
+        message = "Hello CS111 night owl";
+      } else if (date.getHours() < 8) {
+        message = "Hello CS111 early bird";
+      } else if (date.getHours() < 12) {
+        message = "Good morning CS111";
+      } else if (date.getHours() < 18) {
+        message = "Good afternoon CS111";
+      } else if (date.getHours() < 21) {
+        message = "Good evening CS111";
+      } else {
+        message = "Good night CS111 😴";
+      }
+      welcomeMessage.innerHTML = message;
+    };
+
+    window.onload = setWelcomeMessage();
+
+    const closeBtn = document.getElementById("close");
+    const modalMenu = document.getElementById("wrapped-modal");
+
+    // TODO: Remove the following line of code to get rid of modal
+    if (localStorage.getItem("firstVisit") === null) {
+      modalMenu.style.display = "flex";
+      localStorage.setItem("firstVisit", true);
     } else {
-      message = 'Good night CS111 😴';
+      modalMenu.style.display = "none";
     }
-    welcomeMessage.innerHTML = message;
-  }
 
-  window.onload = setWelcomeMessage();
-</script>
-
+    closeBtn.addEventListener("click", () => {
+      modalMenu.style.display = "none";
+    });
+  </script>
+  <script>
+    // clear the local storage after 24 hours
+    const clearLocalStorage = () => {
+      const date = new Date();
+      const lastVisit = localStorage.getItem("lastVisit");
+      if (lastVisit === null) {
+        localStorage.setItem("lastVisit", date.getTime());
+      } else {
+        const diff = date.getTime() - lastVisit;
+        if (diff > 86400000) {
+          localStorage.clear();
+        }
+      }
+    };
+  </script>
+  <script
+    src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"
+  ></script>
 </html>
